@@ -1,0 +1,82 @@
+建立顾客表：
+create table Client
+(
+	Cid char(20) not null PRIMARY KEY,
+	Cname char(20) not null,
+	Cage int,
+	Csex char(2) check(Csex in('男','女')),
+	Ctel char(11) not null,
+	Cadd char(20),
+)
+
+建立客房表：
+create table Room
+(
+	Rno char(10) not null primary key,
+	Rsize char(10) not null,
+	Rprice int not null,
+	Rtype char(10) not null,
+	Rcond char(2) check(Rcond in('满','空')),
+	Rfloor char(10) not null,
+	)
+
+创建住宿情况表：
+create table Inhotel
+(
+	Cid char(20) not null,
+	Rno char(10) not null,
+	ComeT datetime not null,
+	LeftT datetime not null,
+	Idays int not null,
+	Icost int not null,
+	Idis float,
+	Irealpaid float not null,
+	primary key(Cid,Rno),
+	foreign key (Cid) references Client(Cid),
+	foreign key (Rno) references Room(Rno),
+	)
+
+创建历史记录表：
+create table HistoryRecord
+(
+	Hno char(10) not null primary key,
+	Cid char(20),
+	Rno char(10),
+	LeftT datetime,
+	foreign key (Cid) references Client(Cid),
+	foreign key (Rno) references Room(Rno),
+	)
+
+创建入住信息视图：
+create view 
+IntoView(Cid,Cname,Rno,Rfloor)
+as select 
+Client.Cid,Client.Cname,Room.Rno,Room.Rfloor
+from Room,Client,Inhotel
+where Room.Rcond = '满' and Inhotel.Rno = Room.Rno 
+
+创建空房间信息视图：
+create view 
+emptyRoom(Rno,Rtype,Rfloor,Rprice,Rsize)
+as select 
+Rno,Rtype,Rfloor,Rprice,Rsize
+from Room
+where Room.Rcond = '满'
+
+创建历史纪录视图：
+create view 
+LookHistory
+as select * from HistoryRecord
+
+创建触发器:
+执行删除操作的时候存储到HistoryRecord里面
+create trigger History
+on Inhotel
+for delete 
+as 
+declare @Hno char(10),@Cid char(20),@Rno char(10),@LeftT datetime
+select
+@Rno = Rno ,@LeftT = LeftT,@Cid = Cid
+from deleted
+select @Hno = Hno +1
+from HistoryRecord
