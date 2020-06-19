@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/item"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	<LinearLayout 
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="3"
+		>
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_gravity="center"
+			android:gravity="center_horizontal"
+			android:text="新增支出"
+			android:textSize="40sp"
+			android:textColor="#ffffff"
+			android:textStyle="bold" 
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<LinearLayout 
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		>
+		<RelativeLayout android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:padding="10dp"
+		    >
+		    <TextView android:layout_width="90dp" 
+		    android:id="@+id/tvMoney" 
+		    android:textSize="20sp" 
+		    android:text="金  额：" 
+		    android:layout_height="wrap_content" 
+		    android:layout_alignBaseline="@+id/txtMoney" 
+		    android:layout_alignBottom="@+id/txtMoney" 
+		    android:layout_alignParentLeft="true" 
+		    android:layout_marginLeft="16dp">
+		    </TextView>
+		    <EditText 
+		    android:id="@+id/txtMoney"
+		    android:layout_width="210dp"
+		    android:layout_height="wrap_content"
+		    android:layout_toRightOf="@id/tvMoney"
+		    android:inputType="number"
+		    android:numeric="integer"
+		    android:maxLength="9"
+		    android:hint="0.00"
+		    />
+		    <TextView android:layout_width="90dp" 
+		    android:id="@+id/tvTime" 
+		    android:textSize="20sp" 
+		    android:text="时  间：" 
+		    android:layout_height="wrap_content" 
+		    android:layout_alignBaseline="@+id/txtTime" 
+		    android:layout_alignBottom="@+id/txtTime" 
+		    android:layout_toLeftOf="@+id/txtMoney">
+		    </TextView>
+		    <EditText 
+		    android:id="@+id/txtTime"
+		    android:layout_width="210dp"
+		    android:layout_height="wrap_content"
+		    android:layout_toRightOf="@id/tvTime"
+		    android:layout_below="@id/txtMoney"
+		    android:inputType="datetime"
+		    android:hint="2011-01-01"
+		    />
+		    <TextView android:layout_width="90dp" 
+		    android:id="@+id/tvType" 
+		    android:textSize="20sp" 
+		    android:text="类  别：" 
+		    android:layout_height="wrap_content" 
+		    android:layout_alignBaseline="@+id/spType" 
+		    android:layout_alignBottom="@+id/spType" 
+		    android:layout_alignLeft="@+id/tvTime">
+		    </TextView>
+		    <Spinner android:id="@+id/spType"
+		    android:layout_width="210dp"
+		    android:layout_height="wrap_content"
+		    android:layout_toRightOf="@id/tvType"
+		    android:layout_below="@id/txtTime"
+		    android:entries="@array/outtype"
+		    />
+		    <TextView android:layout_width="90dp" 
+		    android:id="@+id/tvAddress" 
+		    android:textSize="20sp" 
+		    android:text="地  点：" 
+		    android:layout_height="wrap_content" 
+		    android:layout_alignBaseline="@+id/txtAddress" 
+		    android:layout_alignBottom="@+id/txtAddress" 
+		    android:layout_toLeftOf="@+id/spType">
+		    </TextView>
+		    <EditText 
+		    android:id="@+id/txtAddress"
+		    android:layout_width="210dp"
+		    android:layout_height="wrap_content"
+		    android:layout_toRightOf="@id/tvAddress"
+		    android:layout_below="@id/spType"
+		    android:singleLine="false"
+		    />
+		    <TextView android:layout_width="90dp" 
+		    android:id="@+id/tvMark" 
+		    android:textSize="20sp" 
+		    android:text="备  注：" 
+		    android:layout_height="wrap_content" 
+		    android:layout_alignTop="@+id/txtMark" 
+		    android:layout_toLeftOf="@+id/txtAddress">
+		    </TextView>
+		    <EditText 
+		    android:id="@+id/txtMark"
+		    android:layout_width="210dp"
+		    android:layout_height="150dp"
+		    android:layout_toRightOf="@id/tvMark"
+		    android:layout_below="@id/txtAddress"
+		    android:gravity="top"
+		    android:singleLine="false"
+		    />
+		    </RelativeLayout>
+	</LinearLayout>
+	<LinearLayout 
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="3"
+		>
+		<RelativeLayout android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:padding="10dp"
+		    >
+		<Button
+		    android:id="@+id/btnCancel"
+		    android:layout_width="80dp"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_marginLeft="10dp"
+		    android:text="取消"
+		    />
+		    <Button 
+			android:id="@+id/btnSave"
+			android:layout_width="80dp"
+		    android:layout_height="wrap_content"
+			android:layout_toLeftOf="@id/btnCancel"
+			android:text="保存"    
+		    />
+		</RelativeLayout>
+	</LinearLayout>	
+</LinearLayout>

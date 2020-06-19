@@ -1,0 +1,12 @@
+1.安装、配置ADT网址：
+http://www.crifan.com/android_eclipse_offline_install_adt/
+
+2.配置SDK:
+http://jingyan.baidu.com/article/e52e3615400ced40c70c516e.html
+
+3.eclipse运行andriod项目步骤：
+右键工程项目，选 Properties-Andriod-选好andriod版本-点击OK。
+（连接手机，打开开发者模式，Devices将会出现连接手机；
+点击项目名称右键运行 run as application）
+
+http://jingyan.baidu.com/article/91f5db1bd6a2e11c7f05e32f.html
