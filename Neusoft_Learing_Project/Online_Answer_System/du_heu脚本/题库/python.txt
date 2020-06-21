@@ -1,0 +1,557 @@
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('“一张白纸展现在我们面前与同一张白纸被折成纸盒展现在我们面前，所反映出的信息有所差别”这侧重反映了下列哪一种关于信息的说法',
+     2,'A.信息是事物运动的状态和方式，也就是事物内部结构和外部联系的状态和方式；B.信息就是信息，不是物质也不是能量；C.信息是用来消除不确定性的东西；D.信息是人类的各种感官所接收到的东西','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('将一份15页以文字为主的材料录入计算机中需要修订文本，最合适的方法是：',
+     2,'A.把文章一字一句地重新输入到电脑里面再作修改；B.用扫描仪把文章扫描到电脑，再用汉字识别软件识别成可编辑的文档；C.用数码相机把文章拍摄成图片保存到电脑，再用photoshop作文字处理；D.利用IBM语音输入法把该文章读入到电脑，再作修改','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('因特网使用的基础网络通信协议是（）',
+     2,'A.IPX；B.SPX；C.TCP/IP；D.FTP','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下不属于物联网应用的有（）',
+     2,'A.用手机远程控制空调启动；B.在淘宝购物后，能在快递公司的网站上追踪快件的地理位置；C.手机控制摄像头；D.用遥控器打开电视','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列信息中可信度最高的是（）',
+     2,'A.教育部网站公布的高校招生计划；B.论坛上某用户发布的股票走势预测；C.某网站发布的下期彩票中奖号码预测；D.某人博客上发布的旅途见闻','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在“我的电脑”或“资源管理器”中按住（）键，使用鼠标可同时选中多个不连续的文件',
+     2,'A.Shift；B.Ctrl；C.Alt；D.Tab','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('智能手环是一种穿戴式智能设备，可以记录用户日常生活中的锻炼、睡眠等数据。这些数据与手机、平板等通信时，最佳的通信手段是（）',
+     2,'A.红外；B.VHF；C.蓝牙；D.3G技术','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下说法正确的是（）',
+     2,'A.国标码是目前国际通用的信息交换字符代码；B.二进制代码是目前国际通用的信息交换字符代码；C.区位码是目前国际通用的信息交换字符代码；D.ASCII码是目前国际通用的信息交换字符代码','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下数据，哪个是数值型数据',
+     2,'A.圆周率3.14；B.电话号码：01062836511；C.日期：2018/2/9；D.一张数字图片','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('数字化学习改变了学习的时空观念，下列哪个不是数字化学习的要素',
+     2,'A.数字化学习环境；B.数字化学习理论；C.数字化学习方式；D.数字化学习资源','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('学校将组织去国家博物馆参观秦汉文明展，同学们想提前了解展览内容，最便捷可行的方式是',
+     2,'A.找专家介绍；B.查找相关书籍；C.去国家博物馆网站查找相关资料；D.找宣传材料','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('数据处理的基本过程主要包括（）、数据整理、数据分析、数据呈现和分析报告撰写五个环节组成，环节之间有着层层递进的关系。',
+     2,'A.数据加密；B.数据索引；C.数据统计；D.数据收集','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('学校开设了12门选修课程，并通过调查问卷向同学征集了选择意愿，下面哪种图表类型比较适于反映课程选择的整体分布情况？',
+     2,'A.饼图；B.散点图；C.柱形图；D.折线图','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('大型开放式网络课程，即MOOC，在网上提供免费课程，给更多学生提供了系统学习的可能，完成课程学习对学习者的基本要求是（）',
+     2,'A.有大量的学习时间；B.较高的学习自主性；C.有一定及经济条件；D.有一定的知识储备','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('数据分析报告的撰写应该是能对整个数据分析过程做一个总结，并以报告的形式呈现出来，为决策者提供参考。你认为下面哪种情况，不应该出现在数据分析报告中？',
+     2,'A.报告中的数据分析要基于可靠的数据源；B.分析报告要有解决方案和建议方案；C.数据分析报告有猜测性的结论，结论没有肯定的把握；D.报告中的数据分析要有很强的可读性，数据可视化显示，形象直观','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('数据加密技术是最基本的安全技术，最初主要用于保证数据在存储和传输过程中的保密性，现已被应用在日常生活，其对（）等都可实施加、解密变换',
+     2,'A.仅文本；B.仅文本和语音；C.仅文本、语音、图像；D.文本、语音、图像、视频数据','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('（）是计算机科学的一个分支，它企图了解智能的实质，并生产出一种新的能以人类智能相似的方式做出反应的智能机器，该领域的研究包括机器人、语言识别、图像识别、自然语言处理和专家系统等',
+     2,'A.人工智能；B.云计算；C.自动控制；D.大数据','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('一位同学在编辑视频短片时遇到了技术困难，想通过网络与专业人员实时交流，以尽快解决问题，下列沟通方式中最快捷方便的是',
+     2,'A.Email；B.即时通讯软件；C.网上社区；D.Ftp','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('超级计算机是计算机中功能最强、运算速度最快、存储容量最大的一类计算机。目前超级计算机的峰值计算速度达到每秒（）次的级别',
+     2,'A.千万；B.亿；C.亿亿；D.百万亿','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('智能手机通过家用无线路由器上网需要打开的设置是（）',
+     2,'A.GPS；B.4G；C.蓝牙；D.WLAN','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列描述不属于数据的是（）',
+     2,'A.天气温暖；B.54；C.风速；D.电表度数','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列描述中属于知识的是（）',
+     2,'A.某三角形的面积为38平方米；B.三角形的面积计算公式为：S=1/2*a(底)*h(高)；C.38平方米；D.S=1/2*a*h','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列关于数据处理的说法正确的是（）',
+     2,'A.数据处理是将信息转换成数据的过程；B.数据处理是对数据进行算术运算；C.数据处理是将数据转换成信息的过程；D.数据处理是数据的简单收集','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('学校团委号召全校师生为贫困地区捐书，现将全校40个班级1500余人所捐赠书籍按文学、工具、杂志三类录入电子表格软件中做统计管理，需要按类别统计分析各年级班级捐赠数目，可以通过电子表格的（）处理功能，得出各年级班级文学类书籍捐赠的数目？',
+     2,'A.排序；B.查找；C.筛选；D.分类汇总','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('读下面程序段，运行结果为（）
+for i in range(10,0,2):
+print( i , end=’,‘)',
+     2,'A.没有任何输出；B.程序报错；C.10,8,6,4,2；D.10','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列哪个函数可用于四舍五入取整（）',
+     2,'A.int( )；B.round( )；C.float( )；D.str( )','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列变量名中不合法的是：（）',
+     2,'A.a5_；B.a_5；C.5_a；D._a5','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下选项中正确的赋值语句是（）',
+     2,'A.1+2=x1；B.x1+2=3；C.x1: 3*2；D.x1+=3-2','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('若s = "123456789"，则s[1:5]的输出结果是：（）',
+     2,'A.2345；B.12345；C.123456；D.23456','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('能正确表示逻辑关系"a≥10或a≤0"的python表达式是（）',
+     2,'A.a>=10 and a<=0；B.a>=10 or a<=0；C.a>=10 && a<=0；D.a>=10 || a<=0','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('关于数据的表现形式，错误的描述是',
+     2,'A.可以是数字和文字；B.可以是符号和图像；C.可以是数字、文字、符号、图形和图像，但音视频不是；D.可以是音视频','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('（ ）是间接获取数据的渠道',
+     2,'A.耳闻目睹；B.自己做实验；C.做调查问卷；D.查找文献资料','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('（）具有普遍性、共享性、依附于载体、传递性、时效性、可处理性、真伪性、不完全性、价值相对性等特征。',
+     2,'A.信息；B.信息素养；C.信息技术；D.信号','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('（）是指根据需求获取相关的数据',
+     2,'A.数据整理；B.数据收集；C.数据分析报告撰写；D.数据的分析','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('课上老师提出了一个研究课题，有的同学负责对整个数据分析过程作一个总结，最后以报告的形式完整地呈现出来，他们完成的任务属于数据处理过程中的（）',
+     2,'A.数据呈现；B.数据收集；C.数据分析报告撰写；D.数据的分析','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下选项不属于数据清洗的内容是（）。',
+     2,'A.删除重复信息；B.纠正存在的错误；C.提供数据一致性；D.数据的价值','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列活动中，不宜用问卷调查的方式收集数据的是（）',
+     2,'A.近五年清华大学招生数量；B.学生对学科教师的满意程度；C.学校乐团队员的年龄和身高；D.学校开设选修课的内容','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values(' 数据分析的方法有很多，在研究北方某地气候特点时，将其气温、水量、气压与南方某城市的相应数据进行对比，分析它们的差异。这是数据分析方法中的（）',
+     2,'A.交叉分析法；B.对比分析法；C.平均分析法；D.综合评价分析法','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('一家网上书店，对于自己的销售量骤减，进行数据研究，他们研究销售量变化的原因，这样的数据分析属于（）',
+     2,'A.现状分析；B.预测分析；C.归因分析；D.结果分析','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('（ ）用某种特定的几何图形按一定规律在平面（二维方向上）分布的黑白相间的图形记录数据符号信息',
+     2,'A.条形码；B.PCM编码；C.ASCII代码；D.二维码','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列选项中正确的是：',
+     2,'A.如果A1_ = 1，可以print(A1_)；B.如果1A_ = 1，可以print(1A_)；C.Python 中的标识符是不区分大小写的；D.Python 中，所有标识符可以包括英文、数字以及下划线_，能以数字开头','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('stockname= ’GOOG’是什么数据类型？',
+     2,'A.float；B.string；C.int；D.以上都不正确','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('返回 str 在 string 里面出现的次数，是调用下列哪个选项？',
+     2,'A.string.format()；B.string.split(str="", num=string.count(str))；C.string.count(str, beg=0, end=len(string))；D.string.find(str, beg=0, end=len(string))','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('Java的前身是()',
+     2,'A.l = [666,‘Quant’,‘Trader‘,2.333]；B.l = [666, ’Quant‘, ’Trader‘]；C.l = [’Trader‘,2.333,’learn’]；D.l = [666, ‘Quant’, ‘Trader’,’learn’]','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('字典读取是下列哪个选项？',
+     2,'A.dict.get；B.dict.setdefault；C.dict.update；D.d.pop','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('x = set(‘GOOG’) x输出下列哪个选项？',
+     2,'A.GOOG；B.{‘G’,’O’}；C.{‘GOOG’}；D.G,O','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('Java的前身是()',
+     2,'A.l =dict(t)；B.l =set(t)；C.l = list(t)；D.以上都不正确','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values(' a=9，b=4。如果要取a取整除以b，下列哪个选项正确？',
+     2,'A.a**b；B.a*b；C.a/b；D.a//b','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('跳过当前循环的剩余语句，然后继续进行下一轮循环。题目描述为下列哪个选项？',
+     2,'A.continue；B.break；C.pass；D.以上都不正确','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('生成以10开始，到49，间隔为5。代码为下列选项中哪一个？',
+     2,'A.range(10,50,5)；B.list(range(10,50,5))；C.list(range(10,49,5))；D.以上都不正确','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('如果输入
+Prices = list(range(10))
+EMA = pd.Series(ta.EMA(np.array(Prices, dtype=np.float64),4))
+这是计算下列哪个选项？',
+     2,'A.EMA(Prices,10)；B.EMA(Prices,6)；C.EMA(Prices,4)；D.EMA(Prices,64)','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values(' L1 = list(range(15)) ，输入下列哪个选项，得到[0, 3, 6, 9, 12] ?',
+     2,'A.L1[:12:3]；B.L1[::2]；C.L1[1:15:3]；D.L1[::3]','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('关于面向对象的继承，以下选项中描述正确的是',
+     2,'A.继承是指类之间共享属性和操作的机制；B.继承是指一组对象所具有的相似性质；C.继承是指各对象之间的共同性质；D.继承是指一个对象具有另一个对象的性质','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Python中，运行下列程序，输出结果是( )。
+a=37
+b=a%5
+print(b)',
+     2,'A.1；B.2；C.3；D.4','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列程序，运行程序的结果是( )
+a=2
+b=4
+c=(a+b)/2
+print(c)',
+     2,'A.4.0；B.4；C.3.0；D.3','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('读下面的 Python程序，请在划线处将程序补充完整，使程序的输出结果是True。
+a=5
+b=8
+if______:
+     print(’true‘)
+else:
+     print(‘false’)',
+     2,'A.a=b；B.a==b；C.a>b；D.a<b','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('运行以下程序，显示的运行结果是( )
+a=3
+b=4
+if(a+b>8):
+    print(a)
+if(a+b<=8):
+    print(b)',
+     2,'A.4；B.5；C.6；D.7','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('运行以下程序，显示的运行结果是( )
+a="你好"
+b="hello"
+print(b)',
+     2,'A.你好；B.hello；C."你好"；D."hello"','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Python中，运行下列程序，输出结果是_______。
+for i in range(1,6):
+    print("*")',
+     2,'A.*****；B.*******；C.******；D.以上都不正确','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('程序运行结果如下图所示，应在以下横线处填写()
+*
+*
+*
+*
+*
+for i in range(1,___,1):
+    print(‘*’)',
+     2,'A.3；B.4；C.5；D.6','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('运行以下程序，从键盘上输入6显示的运行结果是()
+a=int(input())
+if(a>0):
+    print("正数")
+else:
+    print("不是正数")',
+     2,'A.正数；B.不是正数；C.a；D.6','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('运行以下程序，显示的运行结果是()
+a=5
+b=4
+if(a>b):
+    print(a)
+else:
+    print(b)',
+     2,'A.4；B.5；C.a；D.b','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列程序，输入数值100,显示的运行程序结果是( )
+a=int(input())
+if(a<=100):
+    print("yes")',
+     2,'A.100；B.无结果；C.yes；D.a','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下程序中，输出变量sum的值，横线位置正确的语句是()
+a=1
+b=2
+sum=8+b
+__________',
+     2,'A.print("sum")；B.printf("sum")；C.printf(sum)；D.print(sum)','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下程序的运行结果是() for i in range(1,4,1): print(i，end="")',
+     2,'A.123；B.12；C.1；D.1234','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下程序共循环几次()
+for i in range(1,4,1):
+     print(i)',
+     2,'A.2；B.3；C.4；D.1','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('荷兰人吉多?范罗苏姆于1989年发明的程序设计语言是',
+     2,'A.Pathon；B.pation；C.python；D.pytion','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('python程序设计语言输出语句是',
+     2,'A.input()；B.if()；C.iut()；D.print()','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('python程序设计语言输入语句是',
+     2,'A.input()；B.print()；C.iut()；D.if()','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('print(1/2)语句运行后的结果是',
+     2,'A.1/2；B.0.5；C.1；D.以上都不正确','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('print("1/2")语句运行后的结果是',
+     2,'A.1；B.0.5；C.1/2；D.以上都不正确','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('print("1+2","=",3)语句运行后的结果是',
+     2,'A."1+2"="3；B.3= 3；C.1+2,=,3；D.1+2 = 3','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('print(1+2,"=",3)语句运行后的结果是',
+     2,'A.3 = 3；B."1+2=" 3；C.1+2 = 3；D.1+2,=,3','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('从键盘获取数据保存到整数变量a中，以下正确的代码是',
+     2,'A.a=int()；B.a=int(input())；C.a=int()input()；D.input(a)','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下面可以做为python变量名的是',
+     2,'A.1a；B.print；C.a1；D.if','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下面哪条语句是将数据强行转化为字符串类型',
+     2,'A.int()；B.float()；C.input()；D.str()','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下面哪条语句是将数据强行转化为浮点型[小数]',
+     2,'A.float()；B.int()；C.str()；D.input()','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下面哪条语句是将数据强行转化为整型',
+     2,'A.float()；B.int()；C.str()；D.input()','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在python中______运算符是相除运算？',
+     2,'A.%；B.+；C. /；D.//','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在python中______运算符是取模[取余]运算？',
+     2,'A.**；B.//；C./；D.%','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在python中______运算符是相除取整运算？',
+     2,'A.//；B./；C.%；D.**','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在python中______运算符是幂运算？',
+     2,'A.%；B.**；C./；D.//','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('（）是事物运动的状态和方式，它的基本功能是消除对客观事物认识上的不确定性',
+     2,'A.信号；B.物质；C.信息；D.消息','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('（）是信息的载体，是对客观事物的特征的抽象化的、符号化的表示。例如：用于表示数据量的数值，用于表示事物名称的字符等',
+     2,'A.消息；B.物质；C.信号；D.数据','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('关于信息，下列说法错误的是 （）',
+     2,'A.信息的价值不会改变；B.信息是可以共享的；C.信息是可以处理的；D.信息必须依附于载体而存在','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('计算机内部采用（）编码进行工作',
+     2,'A.十六进制；B.二进制；C.八进制；D.十进制','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('计算机无法直接理解人们日常接触到的信息，所以需要对信息进行（）才能在计算机中存储、加工、传送',
+     2,'A.信息化；B.固化；C.数字化；D.模拟化','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('计算机编码是指对输入到计算机中的各种数据用（）数进行编码的方式',
+     2,'A.十进制；B.十六进制；C.八进制；D.二进制','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('信息的 （）过程是指利用必要的仪器设备把文本、图像、声音、视频等信息采集为声、光、电等物理信号(也称为模拟信号)，再经过采样、量化和数字编码，转化成用二进制数字表示的数字信息，最后进入计算机保存',
+     2,'A.数字化；B.电子化；C.集成化；D.简化','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('数值型数据在计算机中都采用（）编码方式',
+     2,'A.十进制；B.二进制；C.八进制；D.十六进制','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列文件格式中，哪个不是图形图像文件的存储格式',
+     2,'A.. gif；B.. jpg；C.. pdf；D.. bmp','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('（）格式文件是纯文本文件，不携带任何文字修饰控制格式，一般字处理软件都能打开',
+     2,'A.. doc；B.. pdf；C.. html；D.. txt','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列文件类型中，能够包含视频信息的是（）',
+     2,'A..avi；B..wav；C..mid；D.以上都不正确','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('（）是指无法在一定时间范围内用常规软件工具对其内容进行捕捉、管理和处理的数据集合',
+     2,'A.数据；B.大数据；C.知识；D.信息','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('（）是一种基于互联网的计算方式，通过这种方式，共享的软硬件资源和信息可以按需求提供给计算机和其他设备',
+     2,'A.大数据；B.人工智能；C.云计算；D.自动控制','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('（）是第四代移动通信技术，其最明显的优势在于数据通信速度，最大数据传输速率达到100Mbit/s',
+     2,'A.5G；B.Wi-Fi；C.3G；D.4G','D',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('如果用Excel软件管理全班同学的姓名、性别、通讯地址等信息，那么当需要快速列出全班女生的信息时，要使用该软件的（）功能',
+     2,'A.数据→筛选；B.编辑→查找；C.编辑→填充；D.工具→信息检索','A',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('（）是接近于自然语言或数学语言，不依赖于计算机硬件，编写的程序能在通用计算机上运行的语言',
+     2,'A.机器语言；B.高级语言；C.低级语言；D.汇编语言','B',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('（）的指令代码是由二进制数0、1构成',
+     2,'A.低级语言；B.高级语言；C.机器语言；D. 汇编语言','C',2,1,104);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('微型计算机硬件系统中最核心的部件是()',
+     2,'A.CPU；B.UPS；C.存储器；D.输入输出设备','C',2,1,104);
+select * from t_question;

@@ -1,0 +1,590 @@
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述中错误的是（）',
+     2,'A.使用三种基本结构构成的程序只能解决简单问题；B.结构化程序由顺序、分支、循环三种基本结构组成；C.C语言是一种结构化程序设计语言；D.结构化程序设计提倡模块化的设计方法','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('流程图是描述算法的很好的工具，一般的流程图中由几种基本图形组成。其中输入输出框的图形是（）',
+     2,'A.平行四边形；B.长方形；C.椭圆型；D.菱形','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述错误的是（）',
+     2,'A.同一程序各模块可由一组人员同时进行编写调试，可提高编写程序的效率；B.在进行模块化程序设计的时候，应首先完成每个模块的编写调试，再集中考虑主程序中的算法；C.模块化的程序设计是采用自顶向下、逐步细化的原则；D.程序的每个模块都可通过三种基本结构实现','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下选项中叙述正确的是（）',
+     2,'A.C程序中的注释可以嵌套；B.C程序中的注释必须在一行完成；C.函数体必须由 { 开始；D.C程序必须由main语句开始','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下选项中叙述正确的是（）',
+     2,'A.C语言源程序不编译也能直接运行；B.使用N－S流程图不能描述复杂算法；C.计算机能够直接运行C语言源程序，不必进行任何转换；D.结构化程序的三种基本结构是循环结构、选择结构、顺序结构','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下选项中叙述正确的是（）',
+     2,'A.使用三种基本结构就可以实现任何复杂算法；B.只要程序包含了三种基本结构中的任意一种，就是结构化程序；C.程序语法错误要在运行时才能发现；D.C语言程序不需要包含main()函数','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下选项中叙述正确的是（）',
+     2,'A.简单算法的操作步骤不能超过20步；B.C程序中的语句要经过编译才能转换成二进制机器指令；C.算法需要包含所有三种基本结构；D.有些算法不能用三种基本结构来表达','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下选项中叙述正确的是（）',
+     2,'A.全部三种基本结构都包含的才是结构化程序；B.C语言程序可以定义多个不同内容的main函数；C.复杂任务可以分解成简单子任务；D.C语言程序中的所有函数必须保存在同一个源文件中','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述中错误的是（）',
+     2,'A.书写风格良好的程序易读性好；B.C程序可以在一行上写多条语句；C.C程序允许将一条语句分写在多行上；D.书写风格良好的程序执行效率高','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('结构化程序由顺序、选择、循环三种基本结构组成，以下相关叙述错误的是（）',
+     2,'A.三种基本结构不可以嵌套使用；B.顺序结构是按语句在程序中的先后顺序逐条执行，没有分支，没有转移；C.选择结构是根据不同的条件执行不同分支中的语句；D.循环结构是根据条件决定是否重复、重复执行多少次循环体语句','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下可以将任意一个两位整数n的个位数与十位数对换的表达式为',
+     2,'A.(n-n/10)*10+(n/10)；B.(n-n/10*10)*10+n/10；C.n-n/10*10+n/10；D.n/10+(n-n/10)','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述正确的是（）',
+     2,'A.计算机可直接接收并运行C源程序；B.计算机可直接接收并运行任意高级语言编写的源程序；C.计算机只接收由0和1代码组成的二进制指令或数据；D.计算机只接收由0和1代码组成的十进制指令或数据','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述正确的是（）',
+     2,'A.C编译程序把文件后缀为.c的源程序文件编译成文件后缀为.exe的可执行文件；B.C编译程序把文件后缀为.obj的二进制文件编译成文件后缀为.exe的可执行文件；C. 链接程序把文件后缀为.c的源程序文件链接成文件后缀为.exe的可执行文件；D.C编译程序把文件后缀为.c的源程序文件编译成文件后缀为.obj的二进制文件','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述正确的是（）',
+     2,'A.循环结构、选择结构、顺序结构都是结构化程序的基本结构；B.计算机可以直接执行C语言程序，不需要做任何转换；C.过于复杂的算法不能使用N－S流程图描述；D.只有不超过20步操作步骤的算法才是简单算法','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述正确的是（）',
+     2,'A.C语言程序可以定义多个不同内容的main函数；B.任何复杂任务都可以分解成简单子任务；C.C语言程序的所有函数只能处于同一个源文件中WEr；D.包含全部三种基本结构的程序才是结构化程序','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('算法应当具有的特性不包括（）',
+     2,'A.有穷性；B.确定性；C.美观性；D.可行性','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下面叙述正确的是（）',
+     2,'A.任何算法需要包含三种基本结构中的两种以上；B.复杂算法是不能用三种基本结构来表达的；C.只要是简单算法，它的操作步骤都不会超过20步；D.C语言程序的语句经过编译和链接转换成二进制机器指令后才能执行','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述正确的是（）',
+     2,'A. 只使用三种基本结构即可解决任何复杂问题；B.C语言程序并不是必须要定义main()函数；C.只要程序包含了任意一种基本结构，就肯定是结构化程序；D.程序中的语法错误只能在运行时才能显现','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('关于程序设计基本概念，以下叙述错误的是（）',
+     2,'A.结构化算法可以解决任何复杂的问题；B.计算机可以直接执行由任意高级语言编写的程序；C.高级语言都有与之对应的编译程序或解释程序；D.用于任何一种计算机高级语言都可以把算法转换为程序','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在源程序的开始处加上#include',
+     2,'A.将stdio.h中标准输入输出函数的源程序插入到引用处，以便进行编译链接；B.将stdio.h中标准输入输出函数的源程序插入到引用处，以便进行编译链接；C. stdio.h文件中包含标准输入输出函数的函数说明，通过引用此文件以便能正确使用printf、scanf等函数；D.将stdio.h中标准输入输出函数链接到编译生成的可执行文件中，以便能正确运行','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述正确的是（）',
+     2,'A. 如果C语言程序实现的算法很简单，则计算机不进行任何代码转换就能执行程序；B.有些算法不能用三种基本结构来表达；C.C语言程序不编译也能直接运行；D.结构化程序的三种基本结构是循环结构、选择结构、顺序结构','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述正确的是（）',
+     2,'A.通过分解成简单子任务，可以完成任何复杂任务；B.每个结构化程序都要包含全部三种基本结构；C.C语言程序的所有自定义函数只能写在同一个源文件中；D.C语言程序允许使用多个main函数，只要它们的函数体各不相同即可','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述正确的是（）',
+     2,'A.每个C程序文件都应当包含一个main函数；B.每个C程序都只能有一个main函数；C.C程序由函数组成，可以不包含main函数；D.每个C程序文件中的main函数都应当放在最前面','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述错误的是（）',
+     2,'A."程序"是人与计算机"对话"的语言；B.计算机可以直接识别由0和1组成的机器语言代码；C.计算机可以直接识别由十六进制代码构成的程序；D.可以连续执行的指令的集合称为"程序"','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('关于程序模块化，以下叙述错误的是（）',
+     2,'A.程序模块化可以提高程序编制的效率；B.程序模块化可以提高程序代码复用率；C.程序模块化可以提高调试程序的效率；D.程序模块化可以提高程序运行的效率','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述错误的是（）',
+     2,'A.任何能通过编译和运行的算法都一定能得到所期望的结果；B.一个算法所包含的操作步骤应该是有限的；C.算法中每一条指令必须有确切的含义；D.算法可以用各种描述方法来进行描述','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述错误的是（）',
+     2,'A.采用模块化结构，可以提高程序编制的效率；B.在一个任务中，单独编写的每个模块均可以独立运行；C.程序"模块化"有利于任务的分解简；D.允许对函数单独进行编译，是C语言实现"模块化"的基础','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('计算机能直接执行的程序是（）',
+     2,'A.目标程序；B.汇编程序；C.可执行程序；D.源程序','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下选项中关于程序模块化的叙述错误的是（）',
+     2,'A.把程序分成若干相对独立、功能单一的模块，可便于重复使用这些模块；B.把程序分成若干相对独立的模块，可便于编码和调试；C.；D.可采用自底向上、逐步细化的设计方法把若干独立模块组装成所要求的程序','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('关于算法，以下叙述中错误的是（）',
+     2,'A.任何算法都能转换成计算机高级语言的程序，并在有限时间内运行完毕；B.某个算法可能会没有输入；C.同一个算法对于相同的输入必须得出相同的结果；D.一个算法对于某个输入的循环次数是可以事先估计出来的','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('C语言程序的模块化通过以下哪个选项来实现（）',
+     2,'A.变量；B.函数；C.程序行；D.语句','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下不能用于描述算法的是（）',
+     2,'A.程序语句；B.伪代码和流程图；C.E-R图；D.文字叙述','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述中正确的是（）',
+     2,'A.如果算法非常复杂，则需要使用三种基本结构之外的语句结构，才能准确表达；B.只有简单算法才能在有限的操作步骤之后结束；C.程序必须包含所有三种基本结构才能成为一种算法；D.我们所写的每条C语句，经过编译最终都将转换成二进制的机器指令','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述中正确的是（）',
+     2,'A.在算法设计时，可以把复杂任务分解成一些简单的子任务；B.在C语言程序设计中，所有函数必须保存在一个源文件中；C.只要包含了三种基本结构的算法就是结构化程序；D.结构化程序必须包含所有的三种基本结构，缺一不可','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('C语言主要是借助以下哪种手段来实现程序模块化（）',
+     2,'A.使用三种基本结构语句；B.定义函数；C.定义常量和外部变量；D.使用丰富的数据类型','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('关于程序模块化，以下叙述错误的是（）',
+     2,'A.程序模块化可以提高程序代码复用率；B.程序模块化可以提高调试程序的效率；C.程序模块化可以提高程序运行的效率；D.程序模块化可以提高程序编制的效率','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述中错误的是（）',
+     2,'A.C程序经过编译、连接步骤之后才能形成一个真正可执行的二进制机器指令文件；B.用C语言编写的程序称为源程序，它以ASCII代码形式存放在一个文本文件中；C.C语言源程序经编译后生成后缀为.obj的目标程序；D.C语言中的每条可执行语句和非执行语句最终都将被转换成二进制的机器指令','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述中错误的是（）',
+     2,'A.一个C语言程序只能实现一种算法；B.C程序可以由一个或多个函数组成；C.一个C函数可以单独作为一个C程序文件存在；D.C程序可以由多个程序文件组成','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下四个程序中，完全正确的是（）',
+     2,'A.#include main()；{/*/ programming /*/ printf("programming！\n")；}；B.#include main() {/* programming */ printf("programming！\n")； }；C.#include main() {/*/* programming */*/ printf("programming！\n")； }；D.include main() {/* programming */ printf("programming！\n")； }','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述中错误的是（）',
+     2,'A.有穷性；B.确定性；C.stdio；D.可行性','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述中错误的是（）',
+     2,'A.算法正确的程序可以有零个输入；B.算法正确的程序最终一定会结束；C.算法正确的程序可以有零个输出；D.算法正确的程序对于相同的输入一定有相同的结果','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('一个C程序的执行是从( )',
+     2,'A.本程序文件的第一个函数开始,到本程序main函数结束；B.本程序文件的第一个函数开始,到本程序文件的最后一个函数结束；C.本程序的main函数开始,到本程序文件的最后一个函数结束；D.本程序的main函数开始,到main函数结束','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('若有定义:int a = 7; float x = 2.5 , y = 4.7 ;则表达式 x + a % 3 * (int) (x + y) % 2/4 的值是( )',
+     2,'A.2.500000；B.2.750000；C.0.00000；D.3.500000','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('有如下的变量定义语句:“int x=10, *p;”,如果想使*p的值是10,应当执行的语句是( )',
+     2,'A.p=x；B.p=&x；C.p=10；D.p=*x','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('已知x为int类型变量,则语句“if (0<=x<=1) printf(“Y”); else printf(“N”);”执行后的输出结果是( )',
+     2,'A.语法错误；B.不确定；C.Y；D.N','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('设x , y和z是int型变量,且x = 3, y = 4 , z = 5 则下面表达式中值为0的是 ( )',
+     2,'A.‘x‘ && ‘y’；B.x || y+z && y – z；C.x <= y；D.!((x < y )&&!z || 1)','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下程序段 :x = -1; do {x = x*x ; } while (! x);',
+     2,'A.循环执行一次；B.循环执行二次；C.有语法错误；D.是死循环','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('已知x为int类型变量,则语句“for(x=1;x>=10;x--);”执行后,变量x的值是( )',
+     2,'A.0；B.1；C.10；D.11','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列程序段的输出结果是( )。
+char c,k;
+c=‘b’;
+k=4;
+switch(c)
+{	case‘a’: k=1;
+case’b‘: k=2;
+case’c‘: k=3;
+}',
+     2,'A.1；B.2；C.3；D.4','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('定义语句为“char a[10];”,执行下列语句后的输出结果为( )',
+     2,'A.7,8；B.7,7；C.10,8；D.10,7','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下程序运行后的输出结果是( )。
+#include <stdio.h>
+main()
+{
+int i, j, x = 0;
+for (i=0; i<2; i++)
+{
+x++;
+for (j=0; j<3; j++)
+{
+if (j % 2) break;
+x++;
+}
+x++;
+}
+printf("x=%d\n",x);',
+     2,'A.x=6；B.x=8；C.x=10；D.x=4','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('有如下数组定义语句“int a[2][3]={1,2,3,4,5,6};”,则*(*(a+1)+2)的值是( )',
+     2,'A.2；B.6；C.元素2的地址；D.元素6的地址','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('执行下面程序后的输出结果为( )。 
+#define M(x,y) x/y 
+printf("%d ", M(10, 2+3) );',
+     2,'A.2；B.2.0；C.8；D.5','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('设有以下程序段,则对字符串“ZheJiang”的引用方式错误的是( )。
+struct site
+{
+char name[20];
+int no;
+float grade;',
+     2,'A.(*ps).name；B.ps->name；C.s1.name；D.ps.name','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列程序段的输出结果是( )。
+int k, s;
+for(k=0,s=0;k<10;k++,s--)
+if(s>k) break;
+else s+=k;',
+     2,'A.(6.9)；B.(4,6)；C.(4,5)；D.不是A.B.C','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下面程序的输出结果为( )。
+void main()
+{ char *p;
+char s[]= "ABCD";
+for(p=s;p<s+4;p++) printf("%s\n",p);',
+     2,'A.ABCD;ABC;AB;A；B.ABCD;BCD;CD;D；C.A;B;C;D；D.D;C;B;A','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('已知int x=10,y=20,z=30;语句if(x>y) z=x; x=y; y=z;执行之后x,y,z的值是( )',
+     2,'A.x=20,y=30,z=10；B.x=20,y=30,z=20；C.x=20,y=30,z=30；D.x=10,y=20,z=30','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('根据以下程序,输出的结果是( )。
+void main()
+{ int x=4;
+do{
+printf("%d\n",x-=3);
+}while(!(--x));',
+     2,'A.死循环；B.1；C.1和0；D.1和-3','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('函数f的原型说明为“void f(int x[], int n);”,有如下定义语句:“int a[10], m;”,则下列函数调用正确的是( )',
+     2,'A.f(a,m)；B.m=f(a)；C.f(int a[10], int m)；D.m=f(a[10],m)','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('有以下程序执行后的输出结果是( )。
+#include <stdio.h>
+void main( )
+{  int x=0,y=5,z=3;
+while(z-->0&&++x<5)    y=y-1;
+printf(“%d,%d,%d\n”,x,y,z);',
+     2,'A.3,2,0；B.3,2,-1；C.4,3,-1；D.5,-2,-5','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('判断变量a和b都不等于0的表达式是( )',
+     2,'A.(a!=0)||(b!=0)；B.!(a=0)&&(b!=0)；C.a && b；D.a||b','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在C语言中,不正确的int类型的常数是()',
+     2,'A.0；B.037；C.0xAF；D.32768','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在以下一组运算符中,优先级最高的运算符是()',
+     2,'A.<=；B.=；C.%；D.&&','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('表示关系x<=y<=z的c语言表达式为()',
+     2,'A.(X<=Y)AND(Y<=Z)；B.(X<=Y)&&(Y<=Z)；C.(X<=Y<=Z)；D.(X<=Y)&(Y<=Z)','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('设x和y均为int型变量,则以下语句:x+=y;y=x-y;x-=y;的功能是()',
+     2,'A.把x和y按从大到小排列；B.把x和y按从小到大排列；C.交换x和y中的值；D.无确定结果','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在下列选项中,不正确的赋值表达式是()',
+     2,'A.++t；B.k=i==j；C.n1=(n2=(n3=0))；D.a=b+c=1','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下选项中合法的用户标识符是()',
+     2,'A._2Test；B.3Dmax；C.long；D.A.dat','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下选项中属于C语言的数据类型是()',
+     2,'A.复数型；B.双精度型；C.逻辑型；D.集合型','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下程序的输出结果是() main( )
+{
+int k=17;
+printf("%d,%o,%x \n",k,k,k); 
+}',
+     2,'A.17,17,17；B.17,021,0x11；C.17,21,11；D.17,0x11,021','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('已有定义:int x=3,y=4,z=5;,则表达式!(x+y)+z-1&&y+z/2的值是()',
+     2,'A.6；B.0；C.2；D.1','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('设有定义:long x=-123456L;,则以下能够正确输出变量x值的语句是()',
+     2,'A.printf("x=%ld\n",x)；B.printf("x=%d\n",x)；C.printf("x=%8dL\n",x)；D.printf("x=%LD\n",x)','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('设x、y、z和k都是int型变量,则执行表达式x=(y=4,z=16,k=32)后,x的值为()',
+     2,'A.16；B.32；C.64；D.4','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('设a和b均为double型常量,且a=5.5、b=2.5,则表达式(int)a+b/b的值是()',
+     2,'A.6；B.5.500000；C.6.000000；D.6.500000','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('若有以下定义和语句
+char c1=‘b’,c2=‘e’;
+printf("%d,%c\n",c2-c1,c2-’a‘+’A‘);则输出结果是()',
+     2,'A.输出项与对应的格式控制不一致,输出结果不确定；B.2,M；C.2,E；D.3,E','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('有以下程序
+#include 
+main()
+{ int a,b,c=246;
+a=c/100%9;
+b=(-1)&&(-1);
+printf("%d,%d\n",a,b);}
+输出结果是（）',
+     2,'A.2,1；B.3,2；C.4,3；D.2,-1','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列说法中正确的是()',
+     2,'A.C语言程序中，要调用的函数必须在main()函数中定义；B.C语言程序总是从main()函数开始执行；C.C语言程序中的main()函数必须放在程序的开始部分；D.C语言程序总是从第一个定义的函数开始执行','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述中错误的是（）',
+     2,'A.C 语句必须以分号结束；B.复合语句在语法上被看作一条语句；C.空语句出现在任何位置都不会影响程序运行；D.赋值表达式末尾加分号就构成赋值语句','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('有如下程序,该程序的执行结果是()
+main()
+{ int i,sum;
+for(i=1;i<=3;sum++) sum+=i;
+printf("%d\n",sum);}',
+     2,'A.死循环；B.0；C.3；D.6','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('有以下程序, 程序运行后的输出结果是()
+main()
+{ int i,sum;
+for(i=1;i<=3;sum++) sum+=i;
+printf("%d\n",sum);}',
+     2,'A.3,3；B.2,2；C.1,1；D.4,4','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('有以下程序,程序执行后的输出结果是()
+main( )
+{ int i,s=0;
+for(i=1;i<10;i+=2) s+=i+1;
+printf("%d\n",s);}',
+     2,'A.自然数1~9中的奇数之和；B.自然数1~10中的偶数之和；C.自然数1~9的累加和；D.自然数1~10的累加和','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('运行以下程序后,如果从键盘上输入65 14<回车>,则输出结果为()
+main( )
+{int m，n;
+scanf("%d%d"，&m，&n);
+while(m!=n)
+{ while(m>n) m-=n;
+while(n>m) n-=m;}
+printf(“m=%d\n”，m);}',
+     2,'A.m=0；B.m=1；C.m=2；D.m=3','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('一个C语言程序的执行是从 ( )',
+     2,'A.本程序文件的第一个函数开始，到本程序文件的最后一个函数结束；B.本程序文件的第一个函数开始，到本程序的main函数结束；C.本程序的main函数开始，到本程序的main函数结束；D.本程序的main函数开始，到本程序文件的最后一个函数结束','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下叙述中错误的是（）',
+     2,'A.C程序书写格式比较自由，一个语句可以分别写在多行上；B.函数是C程序的基本单位；C.在C语言程序中，规定每条语句以分号（；）结束；D.在C程序中，注释说明只能位于一条语句的后面','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在C语言中，源程序的扩展名是 ( )',
+     2,'A..c；B..obj；C..exe；D..dsp','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('C语言中的标识符只能由字母、数字和下划线3种字符组成，且第一个字符 ( )',
+     2,'A.可以是是3种中的任一种字符；B.必须是字母或下划线；C.必须是数字；D.必须是字母','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列几组选项中，均为不合法的用户自定义标识符是 ( )',
+     2,'A.Pi do _001；B.For C1 _456；C.1ab m-n char；D.include s*T Cbook','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列几组选项中，均为合法的关键字是 ( )',
+     2,'A.dafault short main；B.break float swtich；C.Case while printf；D.return int for','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列语句中，正确的是 ( )',
+     2,'A.char ch1；B.#define PI3.14；C.int a=3；b=4；D.float a','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在C语言中，int、char和short三种类型数据所占用的内存是 ( )',
+     2,'A.由用户自己定义；B.由所用机器的机器字长决定；C.是任意的；D.分别为4、1和2个字节','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下选项中，属于C语言的基本数据类型是 ( )',
+     2,'A.复合型；B.逻辑型；C.双精度型；D.集合型','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在C语言中，整型数据和字符型数据在内存中的存储形式分别是 ( )',
+     2,'A.原码 原码；B.补码 反码；C.ASCII码 原码；D.补码 ASCII码','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在C语言中，合法的长整型常量是 ( )',
+     2,'A.0L；B.4962710；C.0.054157892；D.2.1578e5','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列选项中，均是合法的整型常量是 ( )',
+     2,'A.0Xaff -100 018；B.870 0x123 -017；C.12,430 0X 10b；D.0xcdg 199 012459','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列选项中，均是合法的实型常量是 ( )',
+     2,'A.70 .02 5e；B.1.2e-5.2 07E2 E-3；C.300. -8E9 8.0e-2；D.07e5 +2E+3 0.0','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列选项中，不是合法的字符常量是 ( )',
+     2,'A.‘/‘’’；B.‘=’；C.’？‘；D.”a“','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('已知大写字母A的ASCII码为65，小写字母a的ASCII码为97，则字符常量’\101’是( )',
+     2,'A.A；B.a；C.B；D.无此常量','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下选项中，合法的一组C语言数值常量是 ()',
+     2,'A.0x8A　 10,000　 3.e5；B.12.　 0Xa23　 4.5e0；C.177　 4e1.5　 0abc；D.028　 .5e－3　 －0xf','B',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在下列的C语言常量中，错误的是 ( )',
+     2,'A.0XFE；B.9L；C.5.2e0.9；D.‘\x75’','C',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在C语言中符号常量是由宏定义“#define”来定义的常量，以下叙述中正确的是 ( )',
+     2,'A.符号常量的符号名是标识符，但必须大写；B.符号常量的符号名必须是常量；C.符号常量在整个程序中其值都不能再被重新定义；D.符号常量是指在程序中通过宏定义用一个符号名来代表一个常量','D',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('关于C语言的变量名，以下叙述正确的是 ( )',
+     2,'A.变量名不可以与关键字同名；B.变量名不可以与预定义标识符同名；C.变量名必须以字母开头；D.变量存储是没有限制的','A',2,1,101);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在下列选项中，正确的变量定义是 ( )',
+     2,'A.float a=b=10.2；B.int a=10；C.char case；D.double x=0.123,x=12.3','B',2,1,101);
+select * from t_question;
+
+
+
+
+

@@ -1,0 +1,269 @@
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列关于Lambda表达式语法错误的是( )。
+public delegate string Add(string a,string b);',
+     2,'A.Add delegate=(string x,string y)=> return x+y；B.Add delegate=(string x,string y)=>{ return x+y; }；C.Add delegate=(string x,string y)=> x+y；D.Add delegate=(x,y)=> x+y','A',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列选项中，生成结果为"1 3 5 7 9"的是( )',
+     2,'A.Enumerable.Range(1,10).SkipWhile(a=>a%2==0)；B.Enumerable.Range(1,10).Except(new List<int>{ 2,4,6,8,10 })；C.Enumerable.Range(1,10).Where(a=>a%2==0)；D.Enumerable.Range(1,5).Select(a=>2a-1)','B',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('创建一个对象obj，该对象包含一个名为“name”的属性，且值为“value”，以下选项的JavaScript代码中，无法得到上述结果的是( )',
+     2,'A.var obj = new Object(); obj["name"] = "value"；B.var obj = {name : "value"}；C.var obj = new Object(); obj.prototype.name = "value"；D.var obj = new function() {this.name = "value"; ｝','C',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列对于应用程序缓存的说法错误的是( )',
+     2,'A.应用程序缓存可以通过键/值对的方式来添加；B.应用程序缓存对比整页缓存更灵活、方便，可以用于保存常使用且不会频繁更新的数据；C. 应用程序缓存具有易丢失的特点，所以在访问应用程序缓存中的数据时，最好先判断缓存对象是否存在；D.应用程序缓存的缺点是不能指定过期时间，数据的实时性得不到保障','D',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('Ajax并不是一种全新的技术，而是整合了几种现有的技术，这其中不包括( )',
+     2,'A. WebService；B. XML；C.CSS；D.JavaScript','A',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在ASP.NET MVC中，控制器View方法的参数不包括( )',
+     2,'A.viewName；B.routeValues；C.model；D.masterName','B',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('分析下面的代码，下列LINQ查询不会被即时执行的是( )。
+int[] numbers = new int[]{6,4,3,2,9,1,8,7,5};',
+     2,'A.numbers.Count()；B.numbers.Max()；C.numbers.Where(a=>a>5)；D.numbers.ToList()','C',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在ASP.NET中，下列关于HttpHandler程序的说法，错误的是( )',
+     2,'A.扩展名为.ashx；B.需要实现IHttpHandler接口；C.在该程序中不能直接使用Session；D.它是请求处理的起点','D',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列关于[WebMethod]的描述，错误的是( )',
+     2,'A.下面的方法，其参数和返回值类型都是固定的；B.表示其下面的方法是Web方法；C.它是一个特性；D.一个Web Service文件可以有多个[WebMethod]','A',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列关于扩展方法特性的说法，正确的是',
+     2,'A.扩展方法所在的命名空间必须与被扩展的类一致；B.扩展方法必须是静态方法；C.扩展方法所在的类名必须与被扩展的类一致；D.扩展方法接收的参数类型为被扩展的类，并使用this关键字修饰','B',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在 ASP.NET MVC 中，过滤器不能应用到( )上',
+     2,'A.单个动作方法；B.单个控制器；C.视图；D.所有控制器','C',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在ASP.NET中的整页缓存@OutputCache指令中，( )是必需属性',
+     2,'A.VaryByParam；B.VaryByControl；C.Location；D.Duration','D',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在ASP.NET MVC中，对Action方法的要求的说法中，不正确的是( )',
+     2,'A.方法必须是static(静态)方法；B.方法必须使用public修饰符修饰；C.方法参数不能是泛型参数；D.方法的返回类型为ActionResult','A',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列关于ASP.NET页面缓存的OutputCache指令的声明，正确的是( )',
+     2,'A.<%@ OutputCache Duration="5"%>；B.<%@ OutputCache Duration="5"VaryByControl="none"%>；C.<%@ OutputCache Duration="5000"VaryByParam="id,isbn"%>；D.<%@ OutputCache VaryByParam="name"%>','B',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('Web Service的扩展名是( )',
+     2,'A..ascx；B. .asax；C..asmx；D..ashx','C',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('JSON 对象包含于哪种符号之间( )',
+     2,'A.双括号；B.单括号；C.圆括号；D.花括号','D',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列关于 ASP.NET 和三层架构的描述，说法正确的是',
+     2,'A.ASP.NET MVC 相当于三层中的表现层；B.ASP.NET MVC 和三层不能结合使用；C. ASP.NET MVC 相当于三层中的数据访问层；D.ASP.NET MVC 相当于三层中的业务逻辑层','A',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('关于 console 对象的分析及应用，下列描述错误的是( )。',
+     2,'A.一般信息 console.info()；B.过滤正确信息 console.debug()；C.警告提示 console.warn()；D.错误提示 console.error()','B',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列不属于创建 ASP.NET MVC 应用程序步骤的是( )',
+     2,'A. 创建模型类；B.创建控制器类；C.创建 Web 控件；D.创建视图文件','C',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在 ASP.NET MVC 中，下列( )选项中两个对象数据是直接相通的。
+',
+     2,'A.TempData 和 Model；B.ViewData 和 TempData；C.ViewBag 和 TempData；D. ViewData 和 ViewBag','D',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列选项中，规范的控制器命名是( )',
+     2,'A.ProductController；B.Product；C.ProductControl；D.ProductController.cs','A',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('JSON 语法声明了一个对象，是一种用于传输和生成数据的协定，下列说法错误的是',
+     2,'A.属性：采用 Key-Value 对表示，属性之间使用逗号隔开；B.对象：对象不包含于{}之间；C.对象数组：数组存放于[]之间，如：[elements]；D.元素：元素之间用逗号隔开','B',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列不属于 MVC 模式的组成部分的是( )',
+     2,'A.Model；B.Controller；C.Event；D.View','C',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列关于 ASP.NET MVC 框架的功能的描述，说法错误的是',
+     2,'A.实现了应用程序任务的分离(输入逻辑、业务逻辑和用户界面逻辑)；B.它是一个可扩展、可插入的框架；C.支持强度的 URL 映射组件；D.支持类似 window form 的事件机制','D',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('datagrid 组件中哪个属性是设置列标题对齐的',
+     2,'A.align；B.colspan；C.halign；D.formatter','A',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下述代码中，设置 4 秒后执行的 js 脚本，正确的是( )',
+     2,'A.console.info("执行代码",4000)；B.setTimeout("执行代码",4000)；C.alert("执行代码",4000)；D.call("执行代码",4000)','B',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('panel组件的tools属性，是自定义工具菜单，其可用值包括，描述错误的是( )',
+     2,'A.数组，每个元素均包含“iconCls”和“handler”属性；B.功能按钮指向工具菜单的选择器，显示在工具菜单区域；C.handler属性，没有实际作用；D.iconCls是选择图标样式，iconCls的样式名称请参考“UI/themes/icon.css”文件','C',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('渲染并实例化EasyUI组件的方法是( )',
+     2,'A.在html代码的某些特定的标签元素中，通过添加class="组件名"来实现；B.在html代码的某些特定的标签元素中，通过添加data="组件名"来实现；C.在html代码的某些特定的标签元素中，通过添加class=" easyui-组件名"来实现；D.在html代码的某些特定的标签元素中，通过添加data=" easyui-组件名"来实现','C',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('EasyUI form组件的submit方法的参数是一个对象，其属性包括( )',
+     2,'A.data:要求为Object或String类型的参数，发送到服务器的数据；B.onSubmit：提交之前的回调函数；C. url：请求的URL地址；D.success：提交成功后的回调函数','A',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列关于 Web Service 描述，说法正确的是( )',
+     2,'A.只能用.NET 平台开发；B.Web Service 独立于语言、平台；C.只能在 Windows 上使用；D.不能在 Win Forms 程序中调用','B',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列关于 ASP.NET MVC 框架优势描述，说法错误的是',
+     2,'A.有效降低了管理的复杂性；B.为测试驱动开发(TDD)提供更好的支持；C.大量使用 ViewState 和服务器控件，加快应用程序开发的速度；D.允许用户设计出一种可以支持丰富路由结构的应用程序','C',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在 ASP.NET 中，能够实现页面部分缓存的控件是',
+     2,'A.ScriptManager；B.UpdatePanel；C.Cache；D.Substitution','D',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列关于AJAX的描述，正确的是',
+     2,'A.AJAX是异步式JavaScript和XML的英文缩写；B.AJAX是一系列技术的集合，主要使用到Java技术；C.AJAX是一种未确定的技术，主要用于进行科学计算；D.AJAX是一种新兴的技术，专用于制作银行网页','A',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下关于自定义HtmlHelper的说法正确的是',
+     2,'A. TagBuilder的RenderBeginTag方法用于呈现开始标签；B.可以通过扩展方法创建自定义的HtmlHelper；C.HtmlTextWriter的GenerateId方法用于为标签产生一个ID；D.TagBuilder的Attributes表示HTML标签样式表的属性','B',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在ASP.NET MVC中，在视图加载用户控件List.ascx的方法是',
+     2,'A.<%=List.ascx%>；B.<%=RenderPartial("List")%>；C.<%Html.RenderPartial("List");%>；D. <%=Html("List")%>','C',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在ASP.NET中，显式移除应用程序数据缓存对象的方法是',
+     2,'A.Truncate；B.Delete；C.Drop；D.Remove','D',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在使用 AJAX 时，需要接收服务器返回的信息，下列哪种格式的数据 JS 无法识别？',
+     2,'A.DataTable；B.XML；C.JSON；D.字符串','A',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在 ASP.NET 中，下列( )不是添加应用程序缓存的方法',
+     2,'A.Cache[″data″]=60；B.Append()方法；C.Add()方法；D.Insert()方法','B',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在 ASP.NET 中，关于 Web Service，下列说法正确的是',
+     2,'A.Web Service 中的方法都具有[WebMethod]特性；B.WinForms 程序不能调用 Web Service；C.Web Service 的基本通讯协议 SOAP 是基于 XML 的；D.Web Service 技术组成要素中，UDDI 通过 XML 文档来描述 Web 服务的','C',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('常用的int类型实际是',
+     2,'A.System.Int16；B. System.Int32；C.System.Int64；D.以上都不正确','A',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列是引用类型的有',
+     2,'A.class 类型；B.enum 类型；C.struct 类型；D.string 类型','D',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列描述错误的是',
+     2,'A.抽象类和接口都不能被实例化；B.类不可以多重继承而接口可以；C.抽象类自身可以定义成员而接口不可以；D.一个类可以有多个基类和多个基接口','B',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在ASP.NET中的整页缓存@OutputCache指令中，( )是必需属性',
+     2,'A.VaryByParam；B.VaryByControl；C.Duration；D.Location','C',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('"分析以下C#片段中的属性，该属性是（）属性.Privatestringname;PublicstringName{Get{.returnname;}}"',
+     2,'A.可读可写；B.静态；C.只写；D.只读','D',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在.NET中,Hashtable类所在的命名空间',
+     2,'A.System.Collections；B.System.IO；C.System.Threading；D.System','A',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('CLR为.NET提供以下方面的功能或服务，除了',
+     2,'A.垃圾回收；B.自动取消应用程序中的语法错误；C.代码访问安全；D.代码验证和类型安全','B',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列( )方式无法正常浏览ASPX文件的运行结果',
+     2,'A.http://IP地址/login.aspx；B.http://127.0.0.1/ login.aspx；C.在浏览器中直接输入login.aspx；D.http://localhost/login.aspx','C',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列input表单标记中，(   )是按钮',
+     2,'A.type="password"；B.type="text"；C.type="radio"；D.type="submit"','D',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('引用外部样式表的元素应该放在',
+     2,'A.head元素中；B.HTML文档的开始位置；C.HTML文档的结束位置；D.body元素中','A',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列关于Asp.Net验证控件的说法正确的是',
+     2,'A.当输入为空时，所有的验证控件都不能验证通过；B.服务器验证控件在执行验证时必须在服务器端执行；C.只有TextBox控件才能使用验证控件；D.ValidationSummary控件对网页的输入控件进行总结性验证','B',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values(' 在.NET中，可以使用基于连接的对象来访问数据库，下列选项中( )不是“基于连接的对象”',
+     2,'A.Connection对象；B. Command对象；C.DataSet对象；D.DataReader对象','C',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在ASP.NET 中',
+     2,'A.O；B.C；C.W；D.以上都不正确','D',2,1,105);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在ASP.NET 中',
+     2,'A.O；B.C；C.W；D.以上都不正确','D',2,1,105);
+select * from t_question;

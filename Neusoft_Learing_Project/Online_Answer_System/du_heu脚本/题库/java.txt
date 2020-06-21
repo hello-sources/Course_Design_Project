@@ -1,0 +1,606 @@
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('Java的前身是()',
+     2,'A.Oak；B.C++；C.C；D.Basic','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下代码输出从19到1之间的所有奇数，for语句的条件判断是( )
+for ( i=19;　　　; i-=2)
+    System.out.print(i);',
+     2,'A.i>1；B.i>=1；C.i<1；D.i<=1','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Java语言中，不能注释多行内容的符号是( )',
+     2,'A.以/**开始，*/结束的注释；B.以/*开始，*/结束的注释；C.以//开始的注释；D.以上都不能','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('表达式46+7.8f的类型是( )',
+     2,'A.int；B.long；C.float；D.double','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列说法中正确的是( )',
+     2,'A.一个Java源程序文件中最多只能有一个public类；B.引用一个类的属性或调用其方法必须以这个类的对象名为前缀；C.抽象类默认是public类；D.final类中的属性和方法都必须被final修饰符修饰','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('有关Java中的标准输入/输出，下列说法中错误的是( )',
+     2,'A.Java中没有专门的输入输出语句，所有输入输出是通过输入输出流来实现的；B.System类和java.lang.Math类不同，它的方法不全是静态的；C.标准输入输出流全部由java.lang.System管理；D.标准输入操作是由System.in.read实现，标准输出操作由System.out.print实现','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列说法中正确的是( )',
+     2,'A.抽象类默认是public类；B.引用一个类的属性或调用其方法必须以这个类的对象名为前缀；C.一个Java源程序文件中最多只能有一个public类；D.final类中的属性和方法都必须被final修饰符修饰','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Java程序中，已定义变量int x，给x赋值为1的语句是( )',
+     2,'A.mov x,1；B.int x=1；C.x:=1；D.x=1','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('运行下列程序片段后，关于数组a,b,c的描述，正确的是( )
+int a[] = {2,4,6,8};
+int b[];
+int []c = {1,3,5,7};
+b = a;
+c = a;',
+     2,'A.数组a，b，c具有相同的元素，元素值依次为 2，4，6，8；B.数组a，b，c均为空NULL；C.数组a，b为空NULL，c为2，4，6，8；D.以上说法均错误','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('把窗口分成东、南、西、北、中五个明显区域的布局管理器是( )',
+     2,'A.FlowLayout；B.BorderLayout；C.CardLayout；D.GridLayout','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('不能再派生子类的类，修饰其，应该使用的修饰符是( )',
+     2,'A.private；B.abstract；C.final；D.public','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下不属于Java类库中的基础包的是( )',
+     2,'A.java.lang；B.java.io；C.java.util；D.java.applets','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列标准File类构造方法的使用示例中，不正确的是( )',
+     2,'A.File file = new File("c:\myjava\demo.java ")；B.File file = new File("c:\\myjava"," demo.java ")；C.File file = new File("c:\\myjava\\demo.java ")；D.File dir = new File("c:\\myjava"); File file = new File(dir, "demo.java")','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在标准String类的方法中，能去除某字符串中的首、尾空格的方法是( )',
+     2,'A.replace()；B.trim()；C.regionMatches()；D.replaceAll()','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Java语言中，属于单目运算符的是( )',
+     2,'A.=；B.||；C.++；D.<<','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values(' 要定义int型public成员变量MAXLEN，并保持其值为常数100，则定义这个变量的语句是( )',
+     2,'A.public int MAXLEN=100；B.final int MAXLEN=100；C.public const int MAXLEN=100；D.public final int MAXLEN=100','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('Java源程序文件的后缀名是( )',
+     2,'A..java；B..class；C..cpp；D..exe','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下关于Java中类的构造方法的说法中，错误的是( )',
+     2,'A.构造方法必须与其所属类同名；B.一个类只能有一个构造方法；C.构造方法可以用new运算符调用（系统自动调用）；D.构造方法只能有入口参数，而没有返回值','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列关于Java对象释放的说法中不正确的是( )',
+     2,'A.Java中，程序员只需要创建对象，而释放对象的工作则由虚拟机自动完成；B.Java中垃圾收集是比较费时的，因此其优先级较低，一般在系统空闲时才执行；C.Java中对象释放是由程序员编写析构函数来完成的；D.Java中，垃圾收集可通过程序调用System.gc()方法在任意时刻进行','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('Java的整型数据类型中，需要内存空间最少的是( )',
+     2,'A.long；B.short；C.int；D.byte','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在控制台运行Java字节代码的命令是( )',
+     2,'A.java；B.run；C.link；D.javac','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Java语言中，有一些英文单词已有特殊含义和用途，在程序中不得将它们另作它用，这些英文单词称为保留字或( )',
+     2,'A.变量；B.关键字；C.注释；D.常量','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下程序片段的输出结果是( )
+    int i=0;
+    while(i==1) {
+        System.out.print("***");
+    }',
+     2,'A.***；B.**；C.没有输出结果；D.*','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下不属于面向对象技术范畴的概念是( )',
+     2,'A.封装；B.多态性；C.继承性；D.结构','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列说法中正确的是( )',
+     2,'A.重载是指一个类中有多个同名而形参数量或类型不同的方法；B.子类只能重载父类的方法而不能覆盖父类的方法；C.子类不能声明与父类中方法同名且参数相同的方法；D.可以将方法返回值类型作为判断重载的标准之一','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列答案中不是类的成员方法与外界进行信息交换的方式的是( )',
+     2,'A.通过方法的返回值；B.在类外部定义全局变量；C.利用类的成员变量；D.通过方法中的参数传递','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Java语言中，一个int型数据占用的内存空间是( )',
+     2,'A.1字节；B.2字节；C.4字节；D.8字节','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下关于Java语言表达式的描述中，错误的是( )',
+     2,'A.表达式的操作数可以是方法调用；B.表达式求值时，表达式中的每个变量必须有一个确定的值；C.表达式可以单独构成Java语句；D.表达式的操作数不可以是常量','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下程序片段用于求1-50的和，请问，while循环的条件应该是( )
+    int i=1,sum=0;
+    do {
+        sum +=i;
+        i++;
+    } while 　　　　;',
+     2,'A.i<=50；B.i==50；C.i<50；D.i=50','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列类声明语句中，正确的是( )',
+     2,'A.public abstract final class newClass；B.public class newClass extends superClass；C.public final abstract class newClass extends superClass；D.abstract public newClass class','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在标准String类的方法中，能实现测试两个字符串的某对应区域是否相等，且返回一个boolean类型值的方法是( )',
+     2,'A.equals()；B.equalsIgnoreCase()；C.regionMatches()；D.compareTo()','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('M类中有一个没有形式参数，且没有返回值的方法method，若要使得用M.method()就可以调用该方法，则method方法的方法头的正确形式应该是( )',
+     2,'A.static method()；B.public method()；C.final void method()；D.static void method()','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列有关数组的说法中，正确的是( )',
+     2,'A.Java中的数组用new运算符创建，new运算符还将为数组分配相应的内存空间；B.数组的类型可以是基本型，也可以是类，但不能是接口；C.对于数组空间的回收，Java和C/C++相同，都是由程序控制的；D.以上说法均错误','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('Swing组件中的复选框组件类是( )',
+     2,'A.JLabel；B.JCheckBox；C.JButton；D.JRadioButton','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('Java虚拟机被称为( )',
+     2,'A.JSP；B.JDK；C.JVM；D.JNI','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('1995年5月23日，正式发布Java语言的公司是( )',
+     2,'A.Microsoft；B.Intel；C.IBM；D.Sun','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下面关于Java语言的for语句的描述中，正确的是( )',
+     2,'A.初始化部分、条件判断部分和迭代因子都可以是空语句；B.初始化部分不能是空语句；C.条件判断部分不能是空语句；D.迭代因子不能是空语句','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列用于输入的标准字符流是( )',
+     2,'A.InputStream类；B.Reader类；C.File类；D.Writer类','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列程序片段的运行结果为( )
+int a[] = {2,4,6,8};
+int b[] = {1,3,5,7,9};
+System.arraycopy(a,1,b,0,3);
+for(int i = 0; i < b.length(); i++) System.out.print(b[i] + “ ”);',
+     2,'A.2 4 6 7 9；B.4 3 5 7 9；C.4 6 8 7 9；D.以上均不正确','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列程序的运行结果是( )
+public class Example{ 
+    String str=new String("good"); 
+    char[]ch={’a‘,‘b’,‘c’}; 
+    public static void main(String args[]){ 
+        Example ex=new Example(); 
+        ex.change(ex.str,ex.ch); 
+        System.out.print(ex.str+" and "); 
+        Sytem.out.print(ex.ch); 
+    }    
+    public void change(String str,char ch[]){ 
+        str="test ok"; 
+        ch[0]=‘g’; 　　
+    } 
+}',
+     2,'A.good and abc；B.test ok and；C.test ok and abc；D.good and gbc','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下不可作为Java语言用户自定义标识符的是( )',
+     2,'A.11；B.$1；C._1；D.a1','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下程序片段用于求1～100的和，请问，while循环的条件应该是( )
+    int i=1,sum=0;
+    while 　　　　 
+    {
+        sum +=i;
+        i++;
+    }',
+     2,'A.i<100；B.i<=100；C.i==100；D.i=100','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下代码输出从2到20之间的所有偶数，for语句的初始化部分是( )
+    for ( 　　 ; i<=20; i+=2 )
+        System.out.print(i);',
+     2,'A.i=0；B.i=19；C.i=2；D.i=20','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下关于Java中类声明和方法声明的叙述中，不正确的是( )',
+     2,'A.在类的内部可以再声明类，即Java中允许嵌套进行类声明；B.方法的局部变量的所属类型可以是Java中的任意合法类型；C.类的成员变量的所属类型可以是Java中的任意合法类型；D.在方法的内部可以再声明方法','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列方法中，与方法public void add(int a){}为合理重载的方法是( )',
+     2,'A.public void add(int a,int b)；B.public void add(long a)；C.public void add(int a)；D.public int add(int a)','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Java语言中，一个字符型（char）数据占用的内存空间是( )',
+     2,'A.1位；B.2个字节；C.1个字节；D.4个字节','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('含有支持底层的Internet编程的类和WWW/HTML支持组成的java应用包是( )',
+     2,'A.java.lang；B.java.awt；C.java.net；D.java.applet','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('容器Panel和它的子类Applet默认的布局管理器是( )',
+     2,'A.GridLayout；B.BorderLayout；C.CardLayout；D.FlowLayout','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列关于Swing组件和AWT组件的描述中，错误的是( )',
+     2,'A.Java中Swing组件包含在java.awt.swing包中；B.理想情况是AWT组件开发的图形界面可以应用于所有系统平台；C.Java中Swing组件是由NetScape和Sun公司联合开发的；D.AWT是Abstract Window Toolkit的缩写','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('Java语言中创建一个对象使用的关键字为( )',
+     2,'A.class；B.new；C.interface；D.create','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('Java语言具有许多优点和特点，以下反映Java程序并行机制的特点是( )',
+     2,'A.安全性；B.跨平台；C.多线程；D.可移植','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列有关final修饰符的描述中，错误的是( )',
+     2,'A.用final修饰的变量，一旦赋值，就不能改变，也称final修饰的变量为常量；B.由final修饰的方法不能被子类中的相同方法覆盖；C.由final修饰的类不能派生子类；D.由final修饰的类不能实例化生成相应的对象','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('创建一个二维数组a，其中较高一维含两个元素，每个元素又由3个整型量构成，下列Java语句中能实现上述要求的是( )',
+     2,'A.int a[][]=new int[2][3]；B.int a=new int[2][3]；C.int a[][]；D.int a[][]=int [2][3]','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('设有String s ＝ new String(“abc”); 要使得运行结果为s=abc10可运行下列选项中的( )',
+     2,'A.s += 10; System.out.print(“s=” + s)；B.String s2 = new String(“10”)；s = s + s2；System.out.print(“s=” + s)；C.String s2 = new String(“10”)； System.out.print(“s=” + s.concat(s2))；D.B','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('Java的前身是()',
+     2,'A.无论grade的值是多少，打印Passed；B.如果grade的值大于等于60，打印Passed；否则打印Failed；C.无论grade的值是多少，打印Failed；D.如果grade的值大于等于60，打印Failed；否则打印Passed','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('要使类的某个成员方法成为属于整个类的“类方法”，该方法应使用修饰符( )',
+     2,'A.final；B.public；C.static；D.class','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在java中，用package语句说明一个包时，该包的层次结构必须是( )',
+     2,'A.与文件的结构相同；B.与文件大小相同；C.与文件类型相同；D.与文件目录的层次相同','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Java中，能够实现多重继承效果的方式是( )',
+     2,'A.接口；B.内部类；C.适配器；D.同步','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在标准String类的方法中，能实现两个字符串按词典顺序比较大小，且返回一个int类型值的方法是( )',
+     2,'A.equals()；B.compareTo()；C.regionMatches()；D.equalsIgnoreCase()','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('关于标准输入流in，下列说法中错误的是( )',
+     2,'A.标准输入流用于从标准输入设备输入数据；B.标准设备指计算机启动后默认的设备；C.in是输入流类Reader的对象；D.in是System类的成员变量','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('为台式机设计，主要用于开发桌面应用软件的Java 2的版本是( )',
+     2,'A.J2SE；B.J2EE；C.J2ME；D.B','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列关于Java应用程序的main方法的描述中，错误的是( )',
+     2,'A.每个应用程序都必须有main方法；B.应用程序的执行从main方法开始；C.每个应用程序只能有一个main方法；D.main方法必须放在整个程序的最前面','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下面关于Java语句的描述中，错误的是( )',
+     2,'A.Java语句以分号（;）结束；B.单独一个分号（;）不能构成语句；C.可以用{}把一些语句括起来构成复合语句；D.一个表达式后加上分号（;）便构成一个语句','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列给出的创建String对象s的方法中，错误的是( )',
+     2,'A.String s ＝ new String()；B.byte abc[] = new {65,66,67}; String s = new String(abc,0)；C.String s = ‘abcde‘；D.byte ch[] = new {‘a’, ‘b’, ‘c’}; String s = new String(ch)','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('运行Java语句System.out.println(Math.sin(Math.PI/2))；得到的结果为( )',
+     2,'A.0.0；B.0.5；C.1.0；D.以上答案均错误','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('Java中含有大量标准类，其中提供了创建图形用户界面元素的类的java应用包是( )',
+     2,'A.java.lang；B.java.net；C.java.applet；D.java.awt','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('当类的成员未使用权限修饰符修饰时，Java认为该成员的访问权限是( )',
+     2,'A.friendly；B.public；C.protected；D.private','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下不属于Java关键字的是( )',
+     2,'A.new；B.delete；C.package；D.super','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values(' 以下不属于Java语言基本数据类型的是( )',
+     2,'A.long；B.boolean；C.char；D.String','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下面关于Java语言switch语句的描述中，错误的是( )',
+     2,'A.case后面的常量可以相同；B.switch语句中，default子句是可选的；C.switch语句的表达式不能是字符串；D.switch语句体必须是带花括号{}的语句块','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列关于抽象类的描述中，错误的是( )',
+     2,'A.在类定义中，如果类被关键字abstract修饰，该类就是一个抽象类；B.abstract和final可以同时修饰同一个类；C.抽象类中可以没有抽象方法，而包含抽象方法的类必须是抽象类；D.抽象类本身不能被实例化，它只能作为其他类的父类。子类继承抽象类并实现父类的抽象方法后，就能实例化子类的对象','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Java中，一个类可同时定义许多同名的方法，这些方法的形式参数的个数、类型或顺序各不相同，传回的值可以不相同。这种面向对象程序设计的特性称为( )',
+     2,'A.隐藏；B.覆盖；C.重载；D.Java不支持此特性','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下关于Java语言变量的描述中，错误的是( )',
+     2,'A.变量名必须用标识符来标识；B.变量必须先定义，后使用；C.变量的定义可以出现在程序的任何位置；D.变量的类型必须是基本数据类型','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在程序设计领域，简称OOP的中文全称为( )',
+     2,'A.面向对象程序设计；B.基于对象程序设计；C.结构化程序设计；D.基于过程程序设计','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('创建一个由5个整型元素构成的一维数组a，可使用的Java语句为( )',
+     2,'A.int a[]=int [5]；B.int a[]=new int[5]；C.int a[]=new [5]；D.int a=new int[5]','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('Java中，既具有组件功能，又能包含其他组件，并能通过布局管理器来控制这些组件的大小和功能的GUI单元是( )',
+     2,'A.GUI用户自定义成分；B.基本组件；C.容器；D.面板','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('沿水平线和垂直线安放组件的布局管理器是( )',
+     2,'A.GridLayout；B.BorderLayout；C.BoxLayout；D.FlowLayout','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('Java中所有类的父类是( )',
+     2,'A.Object；B.Java；C.System；D.Root','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('可以被J2SDK中的javadoc.exe识别，并自动从程序中提出注释内容形成程序文档的注释形式是( )',
+     2,'A.以//开始的注释；B.以/**开始，*/结束的注释；C.以/*开始，*/结束的注释；D.以上都不是','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('Java采用的字符集是( )',
+     2,'A.ASCII；B.ISO8859；C.Unicode；D.GB2312','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在 Java 语言中 , 下面 （） 转义序列表示换行',
+     2,'A.\a；B.\f；C.\r；D.\n','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在 JAVA编程中，Java编译器会将Java源代码程序转换为',
+     2,'A.字节码；B.可执行代码；C.机器代码；D.以上所有选项都不正确','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在 Java语言中，下列代码片段的输出结果是
+float a = 50;
+int b = 4;
+float c = a/b;
+System.out.println(c);',
+     2,'A.0；B.12.5；C.12.0；D.12','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Java 语言中，下列代码的输出结果是
+public static void main(String[] args) {
+    int i=5, j=10;
+    do {
+        if(i>j) {
+            break;
+        }
+    j--;
+    i++;
+}while(j!=i);
+System.out.println( i + "," + j);
+}',
+     2,'A.7,6；B.9,6；C.8,7；D.7,8','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Java 语言中定义了如下变量：
+double x=10.0; 
+y=3.0;
+int z=2;
+下面强制转换符都发生了作用，除了',
+     2,'A.(int)(x+y/z)；B.(double)(x/y)；C.(int)x；D.(int)(y+z)','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在JAVA编程中，源代码文件的扩展名为',
+     2,'A..java；B..class；C..com；D.以上所有选项都不正确','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在JAVA语言中描述
+A：‘8’与8是相同的描述
+B：‘￥’的数据类型是char
+下面的选项（）是正确的',
+     2,'A.两个描述都是正确的；B.只有描述B是正确的；C.两个描述都是错误的；D.只有描述A是正确的','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在JAVA语言中，（）语句可以结束本次循环而不会结束整个循环',
+     2,'A.next；B.switch；C.continue；D.break','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在JAVA语言中，3/5的值是',
+     2,'A.1；B.0.6；C.2；D.0','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Java语言中，假设以下所有变量均为整型，则下列代码执行后c的值是
+a=2;
+b=5;
+b++;
+c=a+b;',
+     2,'A.8；B.7；C.6；D.5','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Java语言中，经过如下运算后，num的值为
+int num = 0;
+num = 2>3?0:1;',
+     2,'A.0；B.1；C.2；D.3','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Java语言中，能正确表示a和b同时为正或同时为负的表达式是',
+     2,'A.(a >=0 || b >= 0) && (a < 0 || b < 0)；B.(a + b > 0) && (a + b <= 0)；C.a * b > 0；D.(a >= 0 && b >= 0) && (a < 0 && b < 0)','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在JAVA语言中,下列JAVA语言代码的循环体执行的次数是
+int n=2;
+while(n == 0){
+System.out.println(n); 
+n--;
+}',
+     2,'A.3；B.2；C.1；D.0','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Java语言中，下列变量定义和赋值错误的是',
+     2,'A.char c = "c"; int j=c；B.short i=5;int j=i；C.float f = ’c‘+1；D.float i=5; double d=i','A',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Java语言中，下列表达式的运算的结果是
+10/2 +5%10；',
+     2,'A.12；B.10；C.7；D.5','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在JAVA语言中,下列代码的输出结果是(选一项)（）
+public static void main(String args[]){
+int i,j=0; 
+for(i=1;i<10;i++){
+if(i%4==0) continue; 
+j =i; 
+} 
+System.out.println(i + "," + j);
+}',
+     2,'A.10,8；B.3,6；C.10,9；D.4,10','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Java语言中，下列代码的运行结果是
+int a = 1, sum = 0;
+while (a< 3){ 
+sum = sum + a; 
+a++;
+}
+System.out.println(sum);',
+     2,'A.2；B.3；C.4；D.以上都不对','B',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在JAVA语言中,下列代码的运行结果是(选一项)（）
+public static void main(String args[]) { 
+int stuAge[] = {18,22,26};
+int i, avgAge = 0; 
+for(i = 0; i < 3; i++){ 
+    avgAge += stuAge[i] / 3; 
+    }
+System.out.println( avgAge );
+}',
+     2,'A.0；B.9；C.21；D.11','C',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在JAVA语言中，下列代码运行的结果是
+int a=1,b=3,c=5;
+if(a>b)
+    if(b>c) 
+        c=a+b;
+    else 
+        c=a*b;
+System.out.println( a + "\t" + b + "\t" + c);',
+     2,'A.1 3 3；B.1 3 4；C.1 3 6；D.1 3 5','D',2,1,103);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在Java语言中，下列关于方法的优点，说法错误的是',
+     2,'A.通过使用方法，使得程序的维护变得复杂；B.通过使用方法，可以提高代码的重用性；C.通过使用方法，可以提供程序开发的效率；D.通过使用方法，使得程序的变得简短和清晰','A',2,1,103);
+select * from t_question;

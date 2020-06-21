@@ -1,0 +1,30 @@
+     create table CHistory
+     (
+          u_id int(2)  not null references u_user(u_id),
+          u_Cgrade int(3) not null references u_user(u_Cgrade), 
+          u_Cno int(2) primary key auto_increment
+     );
+     create table CppHistory
+     (
+          u_id int(2)  not null references u_user(u_id),
+          u_Cppgrade int(3) not null references u_user(u_Cppgrade), 
+          u_Cppno int(2) primary key auto_increment
+     );
+     create table JavaHistory
+     (
+          u_id int(2)  not null references u_user(u_id),
+          u_Javagrade int(3) not null references u_user(u_Javagrade), 
+          u_Javano int(2) primary key auto_increment
+     );
+     create table PythonHistory
+     (
+          u_id int(2)  not null references u_user(u_id),
+          u_Pythongrade int(3) not null references u_user(u_Pythongrade), 
+          u_Pythonno int(2) primary key auto_increment
+     );
+     create table NetHistory
+     (
+          u_id int(2)  not null references u_user(u_id),
+          u_Netgrade int(3) not null references u_user(u_Netgrade), 
+          u_Netno int(2) primary key auto_increment
+     );

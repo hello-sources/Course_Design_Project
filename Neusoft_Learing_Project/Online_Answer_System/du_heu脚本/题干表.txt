@@ -1,0 +1,12 @@
+     create table t_question
+     (
+          q_id int(4) primary key auto_increment, 
+          q_title varchar(600) not null,#标题
+          q_level int(1) not null,#难度 0为超简单
+          q_options varchar(600) ,#选项中间用:隔开
+          q_answer varchar(600) ,#答案
+          q_score float not null,#分数
+          /*由于加了references引用使用当前列变为外键*/
+          t_id int(1)  not null references t_type(t_id),
+          s_id int(2) not null references t_subject(s_id) 
+     )auto_increment=10001;

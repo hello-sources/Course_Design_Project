@@ -1,0 +1,7 @@
+      create table t_subject
+      (
+         s_id int(2) primary key auto_increment,
+         s_name varchar(20) not null
+      )auto_increment=101;
+     insert into t_subject(s_name) values('c”Ô—‘'),('c++'),
+   ('Java'),('Python'),('.net');

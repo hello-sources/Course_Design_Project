@@ -1,0 +1,17 @@
+      create table t_user
+      (
+         /*编号 主键 自动标识从1开始每次加1*/
+         u_id int(2) primary key auto_increment,
+         /*非空 唯一键*/
+         u_name varchar(8) not null unique,
+         u_pwd varchar(50) not null,
+         u_realname varchar(20) not null,#真实姓名
+         u_phone varchar(11) not null,#手机号
+         /*角色0为管理员 1为普通用户 2为其它*/
+         u_role int(1) not null default 1,
+         u_regdt timestamp default current_timestamp,
+         u_mark varchar(50),
+      );
+          insert into t_user(u_id,u_name,u_pwd,u_realname,u_phone,
+    u_role,u_mark)values(007,'zz','777','zzz','130777',
+    0,'super');

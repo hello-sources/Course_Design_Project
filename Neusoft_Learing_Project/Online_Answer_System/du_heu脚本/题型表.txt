@@ -1,0 +1,7 @@
+       create table t_type
+       (
+          t_id int(1) primary key auto_increment,
+          t_name varchar(20) not null
+       );
+      insert into t_type(t_name) values('单选'),('多选'),
+('填空'),('判断'),('应用'),('简答');

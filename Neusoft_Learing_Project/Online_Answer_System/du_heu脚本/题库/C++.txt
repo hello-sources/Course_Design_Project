@@ -1,0 +1,502 @@
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在面向对象方法中，不属于“对象”基本特点的是？',
+     1,'A.一致性；B.分类性；C.多态性；D.标识唯一性 ','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('C++系统预定义了4个用于标准数据流的对象，下列选项中不属于此类对象的是？',
+     1,'A.cout；B.cin；C.cerr；D.cset','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('一个可运行的C＋＋源程序( )',
+     1,'A.由一个或多个主函数构成；B.由一个且仅由一个主函数和零个以上（含零个）的子函数构成；C.仅由一个主函数构成；D.由一个且只有一个主函数和多个子函数构成 ','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('C＋＋程序的三种基本结构是( )',
+     1,'A.顺序结构、选择结构、循环结构；B.递归结构、循环结构、转移结构；C.嵌套结构、递归结构、顺序结构；D.循环结构、转移结构、顺序结构 ','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下不属于字符型常量的是（ ）',
+     1,'A.‘$’；B.‘+’；C.‘x2A’；D.“B” ','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('已知：char a，float b ， double c ， 则执行语句：c = a + b + c后变量c的类型为( )',
+     2,'A.int；B.char；C.double；D.float ','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('设已有说明语句“in a=5;”，则执行语句“a+=a*=a%=3;”后，a的值为 ( )',
+     2,'A.18；B.8；C.2；D.0 ','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('给出下面定义：char a[]=”abcd”;char b[]={‘a’,’b’,’c’,’d’};则下列说法正确的是（ ）',
+     2,'A.数组a与数组b等价；B.数组a和数组b的长度相同；C.数组a的长度大于数组b的长度；D.数组a的长度小于数组b的长度 ','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('设已定义i和k为int类型变量，则以下for循环语句( )。for ( i =0; i!=0; i++ )cout<< " * * * * n ";',
+     2,'A.判断循环结束的条件不合法；B.循环一次也不执行；C.循环只执行一次；D.是无限循环','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('执行以下程序段后, 输出的结果为（）。int a=4,b=5,t=0；if(a>b) t=a；a=b；b=t；cout<<”a=”<<a<<”,b=”<<b<<endl；',
+     2,'A.a=5,b=0；B.a=5,b=4；C.a=4,b=5；D.语法错误','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('执行以下程序段后，m的值为 ( )。int a[2][3]={{1,2,3},{4,5,6}}；int m,*p=&a[0][0]；m=(*p)*(*(p+2))*(*(p+4))；',
+     3,'A.15；B.14；C.13；D.12 ','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在C++中使用流进行输入输出，其中用于屏幕输出的对象是( )',
+     2,'A.cerr；B.cout；C.cfile；D.cin ','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在参数传递过程中，对形参和实参的要求是（ ）',
+     2,'A.函数定义时，形参一直占用存储空间；B.形参可以是常量、变量或表达式；C.实参可以是常量、变量或表达式；D.形参和实参类型和个数都可以不同','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('假定AA为一个类，a为该类公有的数据成员，x为该类的一个对象，则访问x对象中数据成员a的格式为（ ）',
+     3,'A.x(a)；B.x[a]；C.x->a；D.x.a ','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('一个类的友元函数可以访问类的( )成员',
+     2,'A.私有；B.保护；C.公有；D.以上都正确','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列对基类和派生类关系的描述中，错误的是（ ）',
+     2,'A.派生类是基类的子集；B.派生类是基类的组合；C.派生类是基类的具体化；D.派生类是基类定义的延续','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列对派生类的描述中，错误的是（ ）',
+     2,'A.一个派生类可以作为另一个派生类的基类；B.派生类至少有一个基类；C.派生类的缺省继承方式是private；D.派生类只继承了基类的公有成员和保护成员','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('设置虚基类的声明中，正确的是（ ）',
+     2,'A.减少目标代码；B.提高运行效率；C.消除二义性；D.简化程序','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列描述中，（ ）是抽象类的特征',
+     2,'A.不能说明其对象；B.可以进行构造函数重载；C.可以定义友元函数；D.可以说明虚函数','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('关于运算符重载，下列说法正确的是（ ）',
+     2,'A.重载时，运算符的功能可以改变；B.重载时，运算符的操作数个数可以改变；C. 重载时，运算符的优先级可以改变；D.重载时，运算符的结合性可以改变','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('编写C++程序一般需经过的几个步骤依次是（ ）',
+     2,'A.编辑、调试、编译、连接；B.编辑、编译、连接、运行；C. 编译、调试、编辑、连接；D.编译、编辑、连接、运行','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('决定C++语言中函数的返回值类型的是（ ）',
+     2,'A. 调用该函数时系统随机产生的类型；B.调用该函数时的主调用函数类型；C.在定义该函数时所指定的数据类型；D. return语句中的表达式类型','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('假定AB为一个类，则执行“AB a(2), b［3］,*p［4］;”语句时调用该类构造函数的次数 为（ ）',
+     2,'A.3；B.9；C.5；D.4','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('所谓数据封装就是将一组数据和与这组数据有关操作组装在一起，形成一个实体，这实体也就是（ ）',
+     2,'A.类；B.对象；C.函数体；D.数据块','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('所谓多态性是指 （ ）',
+     2,'A. 不同的对象调用不同名称的函数；B.不同的对象调用相同名称的函数；C.一个对象调用不同名称的函数；D.一个对象调用不同名称的对象','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('假定一个类的构造函数为“A(int i=4, int j=0) {a=i;b=j;}”, 则执行“A x (1);”语 句后，x.a和x.b的值分别为（ ）',
+     2,'A.4和1；B.1和4；C.1和0；D.4和0','C',2,1,102);
+
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列程序的输出结果是（ ） 。
+#include <iostream.h>
+void main() {int n[][3]={10,20,30,40,50,60};
+int *p=&n[0][0];
+cout<<*p<<","<<*(p+1)<<endl;}',
+     2,'A.40,20；B.40,21；C.10,21；D.10,20','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在C++中，使用流进行输入输出，其中用于屏幕输入（ )',
+     2,'A.cin；B.cout；C.cett；D.clog','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('假定AA为一个类，a( )为该类公有的函数成员，x为该类的一个对象，则访问x对象中函数成员a( )的格式为（ ）',
+     2,'A.x.a；B.x.a()；C.x->a；D.(*x).a()','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('关于对象概念的描述中，说法错误的是（ )',
+     2,'A.对象是类的一个变量；B.对象之间的信息传递是通过消息进行的；C.对象就是C语言中的结构变量；D.对象代表着正在创建的系统中的一个实体','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('类MyA的复制构造函数是 （ ）',
+     2,'A.MyA(MyA)；B.MyA()；C.MyA(MyA*)；D.MyA(MyA&)','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在C++中，函数原型不能标识（ ）',
+     2,'A.函数的功能；B.函数的返回类型；C.函数参数的个数；D.函数参数类型','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('使用地址作为实参传给形参，下列说法正确的是（ ）',
+     2,'A.形参是实参的备份；B. 实参与形参是同一对象；C.实参是形参的备份；D.实参与形参无联系','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列不是描述类的成员函数的是（ ）',
+     2,'A.构造函数；B.析构函数；C.友元函数；D.拷贝构造函数','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下面有关类说法不正确的是（ ）',
+     2,'A.在一个类中可以说明具有类类型的数据成员；B.一个类可以有多个构造函数；C.一个类只有一个析构函数；D.析构函数需要指定参数','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('一个类的友元函数可以访问类的( )成员',
+     2,'A. 局部变量；B.静态变量；C.寄存器变量；D.全局变量','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列有关重载函数的说法中正确的是（ ）',
+     2,'A.重载函数参数个数必须相同；B.重载函数必须有不同的形参列表；C.重载函数名可以不同；D.重载函数必须具有不同的返回值类型','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('this指针存在的目的是（ ）',
+     2,'A.保证基类私有成员在子类中可以被访问；B. 保证基类保护成员在子类中可以被访问；C.保证每个对象拥有自己的数据成员，但共享处理这些数据成员的代码；D. 保证基类公有成员在子类中可以被访问','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下基类中的成员函数表示纯虚函数的是（ ）',
+     2,'A.void tt(int)=0；B.virtual void tt(int)；C.virtual void tt(int){}；D.virtual void tt()=0','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('为了提高程序的运行速度，可将不太复杂的功能用函数实现，此函数应选择（ ）',
+     2,'A.内联函数；B.重载函数；C.递归函数；D.函数模板','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列不属于C++关键字的是',
+     2,'A.extern；B.goto；C.free；D.default','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('C++中定义标准输入输出的库为',
+     2,'A.stdio；B.math；C.iostream；D.stdlib','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('My是一个类，则执行语句My a[3]，*p[2]之后，自动调用构造函数次数为',
+     2,'A.2；B.3；C.4；D.5','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列语句错误的是',
+     2,'A.int val(20)；B.extern int val(20)；C.const int val；D.extern const int val','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列说法中，有关构造函数是正确的是',
+     2,'A.任何一类必定有构造函数；B.可定义没有构造函数的类；C.构造函数不能重载；D.任何一类必定有缺省的构造函数','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下面关于类和对象说法不正确是',
+     2,'A.类由数据与函数组成；B.一个对象必属于某个类；C.对象是类的实例；D.一个类的对象只有一个','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下面选项中不是类成员函数的是',
+     2,'A.构造函数；B.析构函数；C.友元函数；D.静态函数','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在C++中类之间的继承关系具有',
+     2,'A.自反性；B.对称性；C.传递性；D.反对称性','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('C++中类的成员默认为',
+     2,'A.public；B.private；C.protected；D.static','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('C++中要实现动态联编，调用虚函数时必须使用',
+     2,'A.基类指针；B.类名；C.派生类指针；D.对象名','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下面对析构函数的正确描述是',
+     2,'A.系统不能提供默认的析构函数；B.析构函数必须由用户定义；C.析构函数没有参数；D.析构函数可以设置默认参数','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在下面的二维数定义正确的是',
+     2,'A.int ary[5][];B.int ary[][5]={{0,1,2}};C.int ary[][5];D.int ary[5,5]','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('以下说法中正确的是',
+     2,'A.C++程序总是从第一个定义的函数开始执行；B.C++程序总是从main函数开始执行；C.C++中函数必须有返回值；D.C++中函数名必须唯一','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下面声明纯虚函数语句正确的是',
+     2,'A.void fun( ) =0；B.virtual void fun( )=0；C.virtual void fun( )；D.virtual void fun( ){ }','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('对于拷贝初始化构造函数和赋值操作的关系，正确的描述是',
+     2,'拷贝初始化构造函数和赋值操作是完全一样的操作；B.进行赋值操作时，会调用类的构造函数；C.当调用拷贝初始化构造函数时，类的对象正在被建立并被初始化；D.拷贝初始化构造函数和赋值操作不能在同一个类中被同时定义','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('使用重载函数的目的是',
+     2,'A.共享函数数据；B.减少代码量；C.优化运行效率；D.提高可读性','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('C++语言对C语言做了很多改进，C++语言相对于C语言的最根本的变化是',
+     2,'A.增加了一些新的运算符；B.允许函数重载，并允许设置缺省参数；C.规定函数说明符必须用原型；D.引进了类和对象的概念','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('对类成员访问权限的控制，是通过设置成员的访问控制属性实现的，下列不是访问控制属性的是',
+     2,'A.公有类型；B.私有类型；C.保护类型；D.友元类型','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列关于类的权限描述错误的是',
+     2,'A.类本身的成员函数可以访问自身的任何成员；B.类的对象只能访问公有成员；C.普通函数可以不通过对象直接访问类的公有成员；D.普通函数可以不通过对象直接访问类的公有成员','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('只能在自身类和子类成员函数中被访问，无法通过对象在类外访问的成员属于',
+     2,'A.private；B.protected；C.public；D.publish','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('面向对象中的“对象”是指',
+     2,'A.行为抽象；B.数据抽象；C.行为抽象和数据抽象的统一；D.行为抽象和数据抽象的对立','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在类外定义成员函数时，：：运算符两侧分别连接',
+     2,'A.返回值类型 函数名；B.返回值类型 类名；C.函数名 类名；D.类名 函数名','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('设函数int& index(int * a，int i)返回数组a中下标为i的元素，如存在整型数组int Array[]={1，2，3}，在执行index(Array，2)+ +后，Array中各元素值为',
+     2,'A.{0,1,2}；B.{1,1,2}；C.{1,2,4}；D.{0,2,3}','C',2,1,102);
+
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('类构造函数定义的位置是',
+     2,'A.类体内或体外；B.只是在类体内；C.只在类体外；D.在类的成员函数中','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('设存在数组a，其长度为Len，则下列哪项泛型算法用于在a中寻找值Value的位置',
+     2,'A.reverse(a，a+Len，Value)；B.sort(a，a+Len，Value)；C.find(a，a+Len，Value)；D.copy(a，a+Len，Value)','C',2,1,102);
+
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('关于对象的性质，下列描述错误的是：',
+     2,'A.同一类对象间可相互赋值；B.可以使用对象数组；C.对象不可以用作函数参数；D.一个对象可以用作另一个类的成员','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('声明一个没有初始化参数的对象，需调用',
+     2,'A.指定参数构造函数；B.拷贝构造函数；C.初始化函数；D.默认构造函数','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列运算符不能重载的是',
+     2,'A.!；B.sizeof；C.new；D.delete','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('如P是一指针类型表达式，则下列表达式中不是左值表达式的是',
+     2,'A.P；B.*P；C.&P；D.P+1','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('使用下列流格式控制符能输出一个换行符的是',
+     2,'A.dec；B.oct；C.hex；D.endl','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列表达式，能将P声明为常量指针的是',
+     2,'A.const int * P；B.int*const P；C.const int * const P；D.int * P','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('C++程序文件扩展名为',
+     2,'A..cpp；B..h；C..lib；D..obj','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('对C++中主函数描述正确的是',
+     2,'A.名称为main，可为多个；B.名称不限，可为多个；C.名称为main，必须有且只能有一个；D.名称不限，必须有且只能有一个','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('假定有char * P="Hello"；，要输出这个字符串的地址值的正确写法是',
+     2,'A.cout<< *P；B.cout<<P；C.cout<<&P；D.cout<<(void *)P','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列描述错误的是',
+     2,'A.在没创建对象前，静态成员不存在；B.静态成员是类的成员，不是对象成员；C.静态成员不能是虚函数；D.静态成员函数不能直接访问非静态成员','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('对于友元描述正确的是',
+     2,'A.友元是本类的成员函数；B.友元不是本类的成员函数；C.友元不是函数；D.以上皆不正确','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('一个函数功能不太复杂，但要求频繁使用，则该函数适合作为',
+     2,'A.内联函数；B.重载函数；C.递归函数；D.嵌套函数','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列默认参数的声明不正确的是',
+     2,'A.int max(int a，int b，int c，int d=0)；B.int max(int a，int b，int c=0，int d=0)；C.int max(int a=0，int b，int c=0，int d=0)；D.int max(int a，int b=0，int c=0，int d=0)','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在编译指令中，宏定义使用的指令是',
+     2,'A.#include；B.#define；C.#if；D.#else','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('基类中的protected成员，通过哪种派生，其在派生类中的可见性为protected',
+     2,'A.public和private；B.public和protected；C.protected和private；D.仅protected','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('基类中的public成员，通过public派生，基在派生类中的可见性为',
+     2,'A.不可访问；B.private；C.protected；D.public','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('不同对象调用同名函数，但导致完全不同行为的现象称为',
+     2,'A.抽象；B.封装；C.继承；D.多态性','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('头文件扩展名为',
+     2,'A.cpp；B.h；C.ub；D.ob','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('声明函数为内联使用的关键字为',
+     2,'A.const；B.inline；C.short；D.singned','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('设类A中有静态数据成员x，两个A类对象a和b，若a．x10，则b．x的值为',
+     2,'A.9；B.10；C.11；D.不能确定','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('C ++允许在结构中定义函数，这些函数称为',
+     2,'A.静态函数；B.构造函数；C.析构函数；D.成员函数','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列哪种类型的函数适合声明为内联函数',
+     2,'A.函数体语句较多；B.函数体逻辑较复杂；C.函数执行时间较长；D.函数语句较少，执行速度要求高','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('析构函数的返回值类型为',
+     2,'A.void；B.bool；C.int；D.无类型','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('函数重载必须满足的条件是',
+     2,'A.函数名相同；B.参数个数不同；C.参数类型不同；D.函数名不相同','A',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('下列表达式，哪个是声明P为指向常量的常量指针',
+     2,'A.const int*P；B.int*const P；C.const int*const P；D.int*P','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('C++中函数中的return指令可以',
+     2,'A.只能有一条；B.0或多条；C.至少有一条；D.只能主函数调用','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('类声明的内容用花括号括起来，在花括号后跟哪个符号表示类声明结束',
+     2,'A.：；B.；；C.，；D. .','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('使用new Point(5，7)创建对象，调用的是下列哪个构造函数',
+     2,'A.Point：：Point()；B.Point：：Point(int，int)；C.Point：：Creat()；D.Point：：Creat(int，int)','B',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('类中的protected成员在何处访问',
+     2,'A.只类自身成员函数中；B.只子类成员函数中；C.类和子类的成员函数中；D.通过对象类外访问','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在类中使用static关键字修饰的成员函数称为',
+     2,'A.全局成员函数；B.公有成员函数；C.静态成员函数；D.非静态成员函数','C',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('用于标识十六进制常量的前缀或后缀是',
+     2,'A.无；B.后缀L或l；C.前缀零；D.前缀Ox','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('在定义结构时，为产生封装性，则需使用哪个关键字数据成员',
+     2,'A.public；B.publish；C.protected；D.private','D',2,1,102);
+
+insert into t_question(q_title,q_level,
+     q_options,q_answer,q_score,t_id,s_id) 
+     values('函数模板template<typename T>void Func(T，T)不能具有哪种实例化形式',
+     2,'A.void Func(int．Int)；B.void Func(bool，b001)；C.void Func(double．int)；D.void Func(char，char)','C',2,1,102);
+
+select * from t_question;
+
+
+
+
