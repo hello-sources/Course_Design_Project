@@ -7,4 +7,6 @@
 1. aima_java
 2. Java course design
 3. Database Project
+4. Neusoft Learing project
+5. Embedded course design
 
