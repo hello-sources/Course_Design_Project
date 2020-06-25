@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <!-- 配置文件的注释 以下的namespace称为命名空间,
+ 它的值一定是接口的全路径才能实现接口未实现的抽象方法 -->
+<mapper namespace="com.web.gjg.mapper.UserMapper">
+<select id="getRow"  resultType="i">
+ select count(*) r from t_user where u_role=1
+</select>
+<!-- 如果数据库的表的列名与实体类的get,set后边的名称不一致，则必须
+通过别名的形式来指定别名列 --> 
+<select id="queryUserById" resultType="u" parameterType="i" >
+select u_id id,u_name name,u_realname realname,u_phone phone,u_regdt regdt,u_mark mark from t_user where u_id=#{value}
+</select>
+<insert id="register" parameterType="com.web.gjg.bean.User">
+ insert into t_user(u_name,u_pwd,u_realname,u_phone,u_role,u_mark) 
+ values(#{name},#{pwd},#{realname},#{phone},#{role},#{mark})
+</insert>
+<select id="login"  resultType="String" parameterType="com.web.gjg.bean.User">
+ select u_pwd from t_user where u_name=#{name} and u_role=#{role}
+</select>
+<select id="pagination"  resultType="com.web.gjg.bean.User" parameterType="int">
+ select u_id id,u_name name,u_realname realname,u_phone phone,u_regdt regdt,u_mark mark   
+ from t_user where u_role=1 limit #{0},#{1}
+</select>
+<delete id="remove" parameterType="int">
+  delete from t_user where u_id=#{value}
+</delete>
+
+<update id="modify" parameterType="com.web.gjg.bean.User">
+   update t_user set u_name=#{name},u_pwd=#{pwd},
+   u_realname=#{realname},u_phone=#{phone},u_mark=#{mark}
+    where u_id=#{id}
+</update>
+
+
+
+</mapper>
