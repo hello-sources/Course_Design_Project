@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="HelloWorldConnMysql"
+  id="myeclipse.1563159225549"
+  context-root="/HelloWorldConnMysql"
+  j2ee-spec="5.0"
+  archive="HelloWorldConnMysql.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
