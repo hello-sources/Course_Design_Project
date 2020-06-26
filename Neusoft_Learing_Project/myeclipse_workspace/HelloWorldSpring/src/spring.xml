@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<!-- id是当前配置文件中bean的唯一一个标识，不能重复，不能写特殊符号
+	如果是name也是bean的标识给i，但是不唯一，多个名称中间用多个特殊符号隔开
+	如果两个都有，那么name就是当前标签的别名，class的值一定是系统提供的类的
+	全路径，或者是自定义的类的全路径
+	以下配置相当于写了
+	String str = new String("世界,您好") -->
+	<bean id="str" class="java.lang.String">
+		<constructor-arg index="0" value="世界,您好"></constructor-arg>
+	</bean>
+
+	<!-- 相当于一下写了Student stu1 = new Student() -->
+	<bean id = "stu1" class = "com.bean.Student"></bean>
+	<bean id = "stu2" class = "com.bean.Student">
+		<constructor-arg index = "1" value = "abc"></constructor-arg>
+		<constructor-arg index = "0" value = "100"></constructor-arg>
+	</bean>
+	
+	<!-- 相当于Student stu3 = new Student()
+	stu3.setId100(3000) stu3.setName200(来自上面已经配置好的id)-->
+	<bean id = "stu3" class = "com.bean.Student">
+		<property name="id100" value = "3000"></property>
+		<property name="name200" ref = "str"></property>
+	</bean>
+	
+	<bean class = "com.bean.Teacher">
+		<property name="student" ref = "stu2"></property>
+		<property name="stus">
+		<list>
+			<ref bean = "stu1"/>
+			<ref bean = "stu2"/>
+			<ref bean = "stu3"/>
+		</list>
+		</property>
+	</bean>
+	
+	
+</beans>
