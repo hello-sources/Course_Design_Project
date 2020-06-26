@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ 
+ <!-- 如果当前文件配置了DispatcherServlet
+ 它就是一个springMVC框架，这个类决定一定有一个文件，
+ 按照约定文件名一定叫<servlet-name>applicationContext加个
+ -servlet.xml，而且它的路径一定按照约定是WebRoot\WEB-INF\ -->
+ <servlet>
+  <servlet-name>applicationContext</servlet-name>
+  <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>applicationContext</servlet-name>
+  <url-pattern>/</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ 
+ 
+ 
+ 
+ <welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+ </welcome-file-list>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+</web-app>
