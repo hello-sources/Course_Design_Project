@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE mapper  
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+   "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+   <!-- 配置文件的注释，以下的namespace成为命名空间，
+   它的值一定是接口的全路径才能实现接口未实现的抽象方法 -->
+<mapper namespace="com.web.ltw.mapper.UserMapper">  
+	<select id="getRow"  resultType="java.lang.Integer">    
+	  select count(*) r from t_user  
+ 	</select> 
+ 	<!-- 如果数据库的表的列民与实体类的get,set后面的名称
+ 	不一致，则必须通过别名的形式来指定别名 -->
+ 	<select id="queryUserById" resultType = "u" parameterType = "i">
+ 	select u_name name,u_pwd pwd,u_realname realname from t_user where u_id = #{value}
+ 	</select>
+ 	
+ 	
+</mapper>
