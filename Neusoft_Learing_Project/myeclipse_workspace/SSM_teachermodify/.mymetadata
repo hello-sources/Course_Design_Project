@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="SSM_teachermodify"
+  id="myeclipse.1563602884787"
+  context-root="/SSM"
+  j2ee-spec="5.0"
+  archive="SSM_teachermodify.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
